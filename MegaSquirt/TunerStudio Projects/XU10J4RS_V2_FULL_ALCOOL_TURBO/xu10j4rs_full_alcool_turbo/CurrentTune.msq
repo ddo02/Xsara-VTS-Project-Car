@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.0.14 - EFI Analytics, Inc." tuneComment="" writeDate="Mon Dec 12 10:52:26 BRST 2016"/>
+<bibliography author="TunerStudio MS 3.0.14 - EFI Analytics, Inc." tuneComment="" writeDate="Mon Dec 12 13:24:28 BRST 2016"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms330N2"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -94,7 +94,7 @@
       </constant>
 <constant digits="2" name="triggerOffset" units="deg">0.0</constant>
 <constant digits="1" name="TpsBypassCLTRevlim" units="TPS %">90.0</constant>
-<constant digits="0" name="RevLimNormal2_hyst" units="RPM">200.0</constant>
+<constant digits="0" name="RevLimNormal2_hyst" units="RPM">1000.0</constant>
 <constant cols="12" digits="3" name="afrTable1" rows="12" units="Lambda">
          1.000041 1.000041 1.000041 1.000041 1.047662 1.102086 1.102086 1.102086 1.102086 1.013647 0.95242 0.95242 
          1.000041 1.000041 1.000041 1.000041 1.047662 1.074874 1.074874 1.074874 1.074874 1.013647 0.95242 0.95242 
@@ -1515,7 +1515,6 @@
 <constant digits="1" name="testint" units="ms">199.936</constant>
 <constant digits="0" name="testrpm" units="RPM">600.1920615</constant>
 <constant digits="3" name="testpw" units="ms">1.000332</constant>
-<constant digits="0" name="testinjcnt">100.0</constant>
 <constant name="testsel_inj">"Inj2"</constant>
 <constant name="testsel_coil">"CoilA"</constant>
 <constant cols="12" digits="1" name="advanceTable3" rows="12" units="deg">
