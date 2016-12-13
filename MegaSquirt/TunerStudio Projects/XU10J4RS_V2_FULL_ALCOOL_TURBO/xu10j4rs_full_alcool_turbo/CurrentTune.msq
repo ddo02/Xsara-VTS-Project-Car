@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.0.14 - EFI Analytics, Inc." tuneComment="" writeDate="Mon Dec 12 15:05:24 BRST 2016"/>
+<bibliography author="TunerStudio MS 3.0.14 - EFI Analytics, Inc." tuneComment="" writeDate="Tue Dec 13 15:26:27 BRST 2016"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms330N2"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -125,21 +125,21 @@
       </constant>
 <constant cols="1" digits="0" name="wueBins" rows="10" units="%">
          124.0 
+         123.0 
+         121.0 
          119.0 
+         117.0 
          115.0 
          111.0 
-         108.0 
-         106.0 
          104.0 
-         102.0 
          101.0 
          100.0 
       </constant>
 <constant cols="1" digits="1" name="taeBins" rows="4" units="ms">
-         0.6 
-         0.9 
-         1.2 
-         1.4 
+         1.0 
+         1.3 
+         1.8 
+         2.5 
       </constant>
 <constant cols="1" digits="1" name="maeBins" rows="4" units="ms">
          0.0 
@@ -155,7 +155,7 @@
          53.0 
          41.0 
          36.0 
-         32.0 
+         31.0 
          28.0 
          25.0 
       </constant>
@@ -272,7 +272,7 @@
 <constant digits="0" name="IACcrankxt" units="sec">5.0</constant>
 <constant name="IACcurlim">"Hold current"</constant>
 <constant digits="3" name="injOpen" units="ms">0.5</constant>
-<constant digits="3" name="battFac" units="ms/v">0.1000002</constant>
+<constant digits="3" name="battFac" units="ms/v">0.0500001</constant>
 <constant name="OverBoostOption">"Spark Cut"</constant>
 <constant name="OverBoostOption_tol">"Off"</constant>
 <constant name="OverBoostOption_flexboost">"Off"</constant>
@@ -288,7 +288,7 @@
 <constant digits="0" name="taeColdM" units="%">130.0</constant>
 <constant digits="1" name="mapsample_angle" units="deg">40.0</constant>
 <constant digits="1" name="taeTime" units="s">0.2</constant>
-<constant digits="0" name="tdePct">80.0</constant>
+<constant digits="0" name="tdePct">100.0</constant>
 <constant digits="1" name="floodClear" units="%">70.0</constant>
 <constant digits="1" name="TPSOXLimit" units="%">110.0</constant>
 <constant digits="0" name="tpsProportion" units="%">100.0</constant>
@@ -679,10 +679,10 @@
 </page>
 <page number="1" size="1024">
 <constant cols="1" digits="0" name="pwmidle_target_rpms" rows="8" units="rpms">
-         1150.0 
-         1113.0 
-         1079.0 
-         1055.0 
+         1100.0 
+         1080.0 
+         1060.0 
+         1050.0 
          1022.0 
          990.0 
          950.0 
@@ -800,13 +800,13 @@
       </constant>
 <constant cols="1" digits="1" name="pwmidle_crank_dutyorsteps_duty" rows="4" units="%">
          58.8 
-         47.04 
+         39.2 
          31.36 
          29.008 
       </constant>
 <constant cols="1" digits="0" name="pwmidle_crank_dutyorsteps_steps" rows="4" units="steps">
          150.0 
-         120.0 
+         100.0 
          80.0 
          74.0 
       </constant>
@@ -1590,8 +1590,8 @@
 <constant name="idleadvance_adder">"Set Value"</constant>
 <constant name="idleadvance_cl_cond">"Manual"</constant>
 <constant digits="1" name="idleadvance_tps" units="%">0.5</constant>
-<constant digits="0" name="idleadvance_rpm" units="rpm">1200.0</constant>
-<constant digits="0" name="idleadvance_load" units="%">40.0</constant>
+<constant digits="0" name="idleadvance_rpm" units="rpm">1400.0</constant>
+<constant digits="0" name="idleadvance_load" units="%">35.0</constant>
 <constant digits="1" name="idleadvance_clt" units="°C">19.998</constant>
 <constant digits="0" name="idleadvance_delay" units="sec">0.0</constant>
 <constant name="seq_inj">"Sequential/Semi-sequential"</constant>
@@ -1831,11 +1831,11 @@
 </page>
 <page number="4" size="1024">
 <constant cols="16" digits="0" name="veTable1" rows="16" units="%">
-         48.0 52.0 55.0 52.0 50.0 53.0 57.0 47.0 74.0 93.0 95.0 94.0 95.0 98.0 98.0 97.0 
-         46.0 52.0 52.0 50.0 56.0 61.0 64.0 60.0 65.0 90.0 95.0 89.0 91.0 97.0 98.0 98.0 
-         44.0 41.0 44.0 50.0 54.0 57.0 63.0 56.0 62.0 89.0 95.0 92.0 95.0 97.0 98.0 98.0 
-         45.0 44.0 40.0 50.0 53.0 59.0 60.0 57.0 67.0 91.0 96.0 94.0 96.0 98.0 99.0 98.0 
-         45.0 44.0 40.0 50.0 54.0 59.0 59.0 54.0 78.0 88.0 96.0 95.0 97.0 98.0 99.0 98.0 
+         48.0 52.0 55.0 52.0 55.0 59.0 63.0 54.0 74.0 93.0 95.0 94.0 95.0 98.0 98.0 97.0 
+         46.0 50.0 50.0 50.0 56.0 61.0 64.0 60.0 65.0 90.0 95.0 89.0 91.0 97.0 98.0 98.0 
+         44.0 43.0 44.0 50.0 54.0 57.0 63.0 56.0 62.0 89.0 95.0 92.0 95.0 97.0 98.0 98.0 
+         45.0 43.0 44.0 50.0 53.0 59.0 60.0 57.0 67.0 91.0 96.0 94.0 96.0 98.0 99.0 98.0 
+         45.0 43.0 44.0 50.0 54.0 59.0 59.0 54.0 78.0 88.0 96.0 95.0 97.0 98.0 99.0 98.0 
          46.0 45.0 45.0 51.0 55.0 59.0 60.0 55.0 85.0 93.0 96.0 96.0 97.0 98.0 99.0 98.0 
          46.0 47.0 44.0 54.0 53.0 58.0 56.0 55.0 89.0 92.0 96.0 97.0 98.0 98.0 99.0 98.0 
          47.0 47.0 43.0 50.0 50.0 55.0 59.0 65.0 93.0 93.0 96.0 98.0 98.0 98.0 99.0 98.0 
@@ -1993,12 +1993,12 @@
          100.0 
       </constant>
 <constant cols="12" digits="0" name="veTable1dozen" rows="12" units="%">
-         48.0 52.0 55.0 52.0 50.0 53.0 57.0 47.0 74.0 93.0 95.0 94.0 
-         95.0 98.0 98.0 97.0 46.0 52.0 52.0 50.0 56.0 61.0 64.0 60.0 
-         65.0 90.0 95.0 89.0 91.0 97.0 98.0 98.0 44.0 41.0 44.0 50.0 
+         48.0 52.0 55.0 52.0 55.0 59.0 63.0 54.0 74.0 93.0 95.0 94.0 
+         95.0 98.0 98.0 97.0 46.0 50.0 50.0 50.0 56.0 61.0 64.0 60.0 
+         65.0 90.0 95.0 89.0 91.0 97.0 98.0 98.0 44.0 43.0 44.0 50.0 
          54.0 57.0 63.0 56.0 62.0 89.0 95.0 92.0 95.0 97.0 98.0 98.0 
-         45.0 44.0 40.0 50.0 53.0 59.0 60.0 57.0 67.0 91.0 96.0 94.0 
-         96.0 98.0 99.0 98.0 45.0 44.0 40.0 50.0 54.0 59.0 59.0 54.0 
+         45.0 43.0 44.0 50.0 53.0 59.0 60.0 57.0 67.0 91.0 96.0 94.0 
+         96.0 98.0 99.0 98.0 45.0 43.0 44.0 50.0 54.0 59.0 59.0 54.0 
          78.0 88.0 96.0 95.0 97.0 98.0 99.0 98.0 46.0 45.0 45.0 51.0 
          55.0 59.0 60.0 55.0 85.0 93.0 96.0 96.0 97.0 98.0 99.0 98.0 
          46.0 47.0 44.0 54.0 53.0 58.0 56.0 55.0 89.0 92.0 96.0 97.0 
@@ -2514,10 +2514,10 @@
 <constant name="pwmidle_cl_opts_initval_clt">"Use CLT"</constant>
 <constant cols="1" digits="1" name="idleadvance_curve" rows="5" units="deg">
          20.0 
-         16.0 
-         10.0 
-         4.0 
-         0.0 
+         15.0 
+         9.0 
+         3.0 
+         -1.0 
       </constant>
 <constant cols="1" digits="1" name="idleadvance_loads" rows="5" units="%">
          30.0 
