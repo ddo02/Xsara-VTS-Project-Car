@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dsh xmlns="http://www.EFIAnalytics.com/:dsh">
-<bibliography author="TunerStudio 3.0.14 - EFI Analytics - support@efianalytics.com" company="EFI Analytics, © 2007 - 2016, All Rights Reserved." writeDate="Sat Dec 31 13:26:35 BRST 2016"/>
+<bibliography author="TunerStudio 3.0.14 - EFI Analytics - support@efianalytics.com" company="EFI Analytics, © 2007 - 2017, All Rights Reserved." writeDate="Sun Jan 01 21:46:47 BRST 2017"/>
 <versionInfo fileFormat="3.0" firmwareSignature="MS2Extra comms330N2"/>
 <gaugeCluster antiAliasing="true" backgroundDitherColor="" clusterBackgroundColor="-16777216" clusterBackgroundImageFileName="" clusterBackgroundImageStyle="Tile">
 <dashComp type="Gauge">
@@ -59,8 +59,8 @@
 <LongClickAction type="String">null</LongClickAction>
 <ShortClickAction type="String">null</ShortClickAction>
 <Value type="double">0.0</Value>
-<Dirty type="boolean">true</Dirty>
 <FontFamily type="String"/>
+<Dirty type="boolean">true</Dirty>
 <EcuConfigurationName type="String"/>
 <RelativeHeight type="double">0.16666666666666666</RelativeHeight>
 <RelativeWidth type="double">1.0</RelativeWidth>
@@ -68,9 +68,9 @@
 <RelativeY type="double">0.0</RelativeY>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
+<ItalicFont type="boolean">false</ItalicFont>
 <AntialiasingOn type="boolean">true</AntialiasingOn>
 <InvalidState type="boolean">false</InvalidState>
-<ItalicFont type="boolean">false</ItalicFont>
 <Id type="String"/>
 </dashComp>
 <dashComp type="Gauge">
@@ -129,8 +129,8 @@
 <LongClickAction type="String">null</LongClickAction>
 <ShortClickAction type="String">null</ShortClickAction>
 <Value type="double">0.0</Value>
-<Dirty type="boolean">true</Dirty>
 <FontFamily type="String"/>
+<Dirty type="boolean">true</Dirty>
 <EcuConfigurationName type="String"/>
 <RelativeHeight type="double">0.041666666666666664</RelativeHeight>
 <RelativeWidth type="double">0.33</RelativeWidth>
@@ -138,9 +138,9 @@
 <RelativeY type="double">0.050505050505050504</RelativeY>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
+<ItalicFont type="boolean">false</ItalicFont>
 <AntialiasingOn type="boolean">true</AntialiasingOn>
 <InvalidState type="boolean">false</InvalidState>
-<ItalicFont type="boolean">false</ItalicFont>
 <Id type="String"/>
 </dashComp>
 <dashComp type="Gauge">
@@ -199,8 +199,8 @@
 <LongClickAction type="String">null</LongClickAction>
 <ShortClickAction type="String">null</ShortClickAction>
 <Value type="double">0.0</Value>
-<Dirty type="boolean">true</Dirty>
 <FontFamily type="String"/>
+<Dirty type="boolean">true</Dirty>
 <EcuConfigurationName type="String"/>
 <RelativeHeight type="double">0.16666666666666666</RelativeHeight>
 <RelativeWidth type="double">1.0</RelativeWidth>
@@ -208,9 +208,9 @@
 <RelativeY type="double">0.16666666666666666</RelativeY>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
+<ItalicFont type="boolean">false</ItalicFont>
 <AntialiasingOn type="boolean">true</AntialiasingOn>
 <InvalidState type="boolean">false</InvalidState>
-<ItalicFont type="boolean">false</ItalicFont>
 <Id type="String"/>
 </dashComp>
 <dashComp type="Gauge">
@@ -269,8 +269,8 @@
 <LongClickAction type="String">null</LongClickAction>
 <ShortClickAction type="String">null</ShortClickAction>
 <Value type="double">0.0</Value>
-<Dirty type="boolean">true</Dirty>
 <FontFamily type="String"/>
+<Dirty type="boolean">true</Dirty>
 <EcuConfigurationName type="String"/>
 <RelativeHeight type="double">0.041666666666666664</RelativeHeight>
 <RelativeWidth type="double">0.33</RelativeWidth>
@@ -278,9 +278,9 @@
 <RelativeY type="double">0.21717171717171715</RelativeY>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
+<ItalicFont type="boolean">false</ItalicFont>
 <AntialiasingOn type="boolean">true</AntialiasingOn>
 <InvalidState type="boolean">false</InvalidState>
-<ItalicFont type="boolean">false</ItalicFont>
 <Id type="String"/>
 </dashComp>
 <dashComp type="Gauge">
@@ -339,8 +339,8 @@
 <LongClickAction type="String">null</LongClickAction>
 <ShortClickAction type="String">null</ShortClickAction>
 <Value type="double">0.0</Value>
-<Dirty type="boolean">true</Dirty>
 <FontFamily type="String"/>
+<Dirty type="boolean">true</Dirty>
 <EcuConfigurationName type="String"/>
 <RelativeHeight type="double">0.16666666666666666</RelativeHeight>
 <RelativeWidth type="double">1.0</RelativeWidth>
@@ -348,9 +348,9 @@
 <RelativeY type="double">0.3333333333333333</RelativeY>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
+<ItalicFont type="boolean">false</ItalicFont>
 <AntialiasingOn type="boolean">true</AntialiasingOn>
 <InvalidState type="boolean">false</InvalidState>
-<ItalicFont type="boolean">false</ItalicFont>
 <Id type="String"/>
 </dashComp>
 <dashComp type="Gauge">
@@ -409,8 +409,8 @@
 <LongClickAction type="String">null</LongClickAction>
 <ShortClickAction type="String">null</ShortClickAction>
 <Value type="double">0.0</Value>
-<Dirty type="boolean">true</Dirty>
 <FontFamily type="String"/>
+<Dirty type="boolean">true</Dirty>
 <EcuConfigurationName type="String"/>
 <RelativeHeight type="double">0.041666666666666664</RelativeHeight>
 <RelativeWidth type="double">0.33</RelativeWidth>
@@ -418,9 +418,9 @@
 <RelativeY type="double">0.3838383838383838</RelativeY>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
+<ItalicFont type="boolean">false</ItalicFont>
 <AntialiasingOn type="boolean">true</AntialiasingOn>
 <InvalidState type="boolean">false</InvalidState>
-<ItalicFont type="boolean">false</ItalicFont>
 <Id type="String"/>
 </dashComp>
 <dashComp type="Gauge">
@@ -479,8 +479,8 @@
 <LongClickAction type="String">null</LongClickAction>
 <ShortClickAction type="String">null</ShortClickAction>
 <Value type="double">50.0</Value>
-<Dirty type="boolean">true</Dirty>
 <FontFamily type="String"/>
+<Dirty type="boolean">true</Dirty>
 <EcuConfigurationName type="String"/>
 <RelativeHeight type="double">0.16666666666666666</RelativeHeight>
 <RelativeWidth type="double">1.0</RelativeWidth>
@@ -488,9 +488,9 @@
 <RelativeY type="double">0.5</RelativeY>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
+<ItalicFont type="boolean">false</ItalicFont>
 <AntialiasingOn type="boolean">true</AntialiasingOn>
 <InvalidState type="boolean">false</InvalidState>
-<ItalicFont type="boolean">false</ItalicFont>
 <Id type="String"/>
 </dashComp>
 <dashComp type="Gauge">
@@ -549,8 +549,8 @@
 <LongClickAction type="String">null</LongClickAction>
 <ShortClickAction type="String">null</ShortClickAction>
 <Value type="double">50.0</Value>
-<Dirty type="boolean">true</Dirty>
 <FontFamily type="String"/>
+<Dirty type="boolean">true</Dirty>
 <EcuConfigurationName type="String"/>
 <RelativeHeight type="double">0.041666666666666664</RelativeHeight>
 <RelativeWidth type="double">0.33</RelativeWidth>
@@ -558,9 +558,9 @@
 <RelativeY type="double">0.5505050505050505</RelativeY>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
+<ItalicFont type="boolean">false</ItalicFont>
 <AntialiasingOn type="boolean">true</AntialiasingOn>
 <InvalidState type="boolean">false</InvalidState>
-<ItalicFont type="boolean">false</ItalicFont>
 <Id type="String"/>
 </dashComp>
 <dashComp type="Gauge">
@@ -576,7 +576,7 @@
 <CriticalColor alpha="255" blue="0" green="0" red="255" type="Color">-65536</CriticalColor>
 <DefaultMax type="double">120.0</DefaultMax>
 <DefaultMin type="double">0.0</DefaultMin>
-<DisplayValue type="String">0</DisplayValue>
+<DisplayValue type="String">57</DisplayValue>
 <FaceAngle type="int">360</FaceAngle>
 <FontColor alpha="255" blue="255" green="255" red="255" type="Color">-1</FontColor>
 <FontSizeAdjustment type="int">0</FontSizeAdjustment>
@@ -585,7 +585,7 @@
 <HighCriticalVP type="ValueProvider">999.0</HighCriticalVP>
 <HighWarning type="double">999.0</HighWarning>
 <HighWarningVP type="ValueProvider">999.0</HighWarningVP>
-<HistoricalPeakValue type="double">50.0</HistoricalPeakValue>
+<HistoricalPeakValue type="double">60.0</HistoricalPeakValue>
 <HistoryDelay type="int">15000</HistoryDelay>
 <LabelDigits type="int">0</LabelDigits>
 <LowCritical type="double">-1.0</LowCritical>
@@ -600,7 +600,7 @@
 <NeedleSmoothing type="int">1</NeedleSmoothing>
 <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
 <ShortestSize type="int">153</ShortestSize>
-<SmoothedValue type="double">0.0</SmoothedValue>
+<SmoothedValue type="double">57.0990099009901</SmoothedValue>
 <StartAngle type="int">0</StartAngle>
 <SweepAngle type="int">300</SweepAngle>
 <SweepBeginDegree type="int">300</SweepBeginDegree>
@@ -613,14 +613,14 @@
 <PegLimits type="boolean">true</PegLimits>
 <ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
 <ShowHistory type="boolean">true</ShowHistory>
-<Value type="double">0.0</Value>
+<Value type="double">57.0990099009901</Value>
 <Dirty type="boolean">true</Dirty>
 <OutputChannel type="String">veTuneValue</OutputChannel>
 <LongClickAction type="String">null</LongClickAction>
 <ShortClickAction type="String">null</ShortClickAction>
-<Value type="double">0.0</Value>
-<Dirty type="boolean">true</Dirty>
+<Value type="double">57.0990099009901</Value>
 <FontFamily type="String"/>
+<Dirty type="boolean">true</Dirty>
 <EcuConfigurationName type="String"/>
 <RelativeHeight type="double">0.16666666666666666</RelativeHeight>
 <RelativeWidth type="double">1.0</RelativeWidth>
@@ -628,9 +628,9 @@
 <RelativeY type="double">0.6666666666666666</RelativeY>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
+<ItalicFont type="boolean">false</ItalicFont>
 <AntialiasingOn type="boolean">true</AntialiasingOn>
 <InvalidState type="boolean">false</InvalidState>
-<ItalicFont type="boolean">false</ItalicFont>
 <Id type="String"/>
 </dashComp>
 <dashComp type="Gauge">
@@ -646,7 +646,7 @@
 <CriticalColor alpha="0" blue="0" green="0" red="0" type="Color">0</CriticalColor>
 <DefaultMax type="double">120.0</DefaultMax>
 <DefaultMin type="double">0.0</DefaultMin>
-<DisplayValue type="String">0</DisplayValue>
+<DisplayValue type="String">57</DisplayValue>
 <FaceAngle type="int">360</FaceAngle>
 <FontColor alpha="255" blue="255" green="255" red="255" type="Color">-1</FontColor>
 <FontSizeAdjustment type="int">2</FontSizeAdjustment>
@@ -655,7 +655,7 @@
 <HighCriticalVP type="ValueProvider">999.0</HighCriticalVP>
 <HighWarning type="double">999.0</HighWarning>
 <HighWarningVP type="ValueProvider">999.0</HighWarningVP>
-<HistoricalPeakValue type="double">50.0</HistoricalPeakValue>
+<HistoricalPeakValue type="double">60.0</HistoricalPeakValue>
 <HistoryDelay type="int">15000</HistoryDelay>
 <LabelDigits type="int">0</LabelDigits>
 <LowCritical type="double">-1.0</LowCritical>
@@ -670,7 +670,7 @@
 <NeedleSmoothing type="int">1</NeedleSmoothing>
 <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
 <ShortestSize type="int">38</ShortestSize>
-<SmoothedValue type="double">0.0</SmoothedValue>
+<SmoothedValue type="double">57.0990099009901</SmoothedValue>
 <StartAngle type="int">0</StartAngle>
 <SweepAngle type="int">300</SweepAngle>
 <SweepBeginDegree type="int">300</SweepBeginDegree>
@@ -683,14 +683,14 @@
 <PegLimits type="boolean">true</PegLimits>
 <ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
 <ShowHistory type="boolean">true</ShowHistory>
-<Value type="double">0.0</Value>
+<Value type="double">57.0990099009901</Value>
 <Dirty type="boolean">true</Dirty>
 <OutputChannel type="String">veTuneValue</OutputChannel>
 <LongClickAction type="String">null</LongClickAction>
 <ShortClickAction type="String">null</ShortClickAction>
-<Value type="double">0.0</Value>
-<Dirty type="boolean">true</Dirty>
+<Value type="double">57.0990099009901</Value>
 <FontFamily type="String"/>
+<Dirty type="boolean">true</Dirty>
 <EcuConfigurationName type="String"/>
 <RelativeHeight type="double">0.041666666666666664</RelativeHeight>
 <RelativeWidth type="double">0.33</RelativeWidth>
@@ -698,9 +698,9 @@
 <RelativeY type="double">0.7171717171717171</RelativeY>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
+<ItalicFont type="boolean">false</ItalicFont>
 <AntialiasingOn type="boolean">true</AntialiasingOn>
 <InvalidState type="boolean">false</InvalidState>
-<ItalicFont type="boolean">false</ItalicFont>
 <Id type="String"/>
 </dashComp>
 <dashComp type="Gauge">
@@ -759,8 +759,8 @@
 <LongClickAction type="String">null</LongClickAction>
 <ShortClickAction type="String">null</ShortClickAction>
 <Value type="double">50.0</Value>
-<Dirty type="boolean">true</Dirty>
 <FontFamily type="String"/>
+<Dirty type="boolean">true</Dirty>
 <EcuConfigurationName type="String"/>
 <RelativeHeight type="double">0.16666666666666666</RelativeHeight>
 <RelativeWidth type="double">1.0</RelativeWidth>
@@ -768,9 +768,9 @@
 <RelativeY type="double">0.8333333333333333</RelativeY>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
+<ItalicFont type="boolean">false</ItalicFont>
 <AntialiasingOn type="boolean">true</AntialiasingOn>
 <InvalidState type="boolean">false</InvalidState>
-<ItalicFont type="boolean">false</ItalicFont>
 <Id type="String"/>
 </dashComp>
 <dashComp type="Gauge">
@@ -829,8 +829,8 @@
 <LongClickAction type="String">null</LongClickAction>
 <ShortClickAction type="String">null</ShortClickAction>
 <Value type="double">50.0</Value>
-<Dirty type="boolean">true</Dirty>
 <FontFamily type="String"/>
+<Dirty type="boolean">true</Dirty>
 <EcuConfigurationName type="String"/>
 <RelativeHeight type="double">0.041666666666666664</RelativeHeight>
 <RelativeWidth type="double">0.33</RelativeWidth>
@@ -838,9 +838,9 @@
 <RelativeY type="double">0.8838383838383838</RelativeY>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
+<ItalicFont type="boolean">false</ItalicFont>
 <AntialiasingOn type="boolean">true</AntialiasingOn>
 <InvalidState type="boolean">false</InvalidState>
-<ItalicFont type="boolean">false</ItalicFont>
 <Id type="String"/>
 </dashComp>
 </gaugeCluster>
