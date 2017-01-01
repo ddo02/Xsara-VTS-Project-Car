@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.0.14 - EFI Analytics, Inc." tuneComment="" writeDate="Sat Dec 31 13:32:52 BRST 2016"/>
+<bibliography author="TunerStudio MS 3.0.14 - EFI Analytics, Inc." tuneComment="" writeDate="Sun Jan 01 14:33:39 BRST 2017"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms330N2"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -128,11 +128,11 @@
          117.0 
          116.0 
          114.0 
+         112.0 
          111.0 
-         107.0 
+         110.0 
+         108.0 
          105.0 
-         103.0 
-         101.0 
          100.0 
       </constant>
 <constant cols="1" digits="1" name="taeBins" rows="4" units="ms">
@@ -224,7 +224,7 @@
          39.996 
          49.995 
          60.04955 
-         69.993 
+         69.60415 
          80.9919 
       </constant>
 <constant cols="1" digits="1" name="taeRates" rows="4" units="%/s">
@@ -853,15 +853,15 @@
          0.0 
       </constant>
 <constant cols="1" digits="0" name="crankPctTable" rows="10" units="%">
-         363.0 
-         361.0 
-         355.0 
-         342.0 
-         271.0 
+         423.0 
+         418.0 
+         412.0 
+         397.0 
+         350.0 
+         228.0 
          169.0 
-         126.0 
-         119.0 
-         112.0 
+         131.0 
+         116.0 
          107.0 
       </constant>
 <constant cols="1" digits="0" name="asePctTable" rows="10" units="%">
@@ -1069,7 +1069,7 @@
          42.9957 
          54.439 
          65.549 
-         76.1035 
+         74.1037 
          82.214 
       </constant>
 <constant digits="0" name="tsf_rpm" units="rpm">6000.0</constant>
@@ -1515,6 +1515,7 @@
 <constant digits="1" name="testint" units="ms">199.936</constant>
 <constant digits="0" name="testrpm" units="RPM">600.1920615</constant>
 <constant digits="3" name="testpw" units="ms">1.000332</constant>
+<constant digits="0" name="testinjcnt">100.0</constant>
 <constant name="testsel_inj">"Inj2"</constant>
 <constant name="testsel_coil">"CoilA"</constant>
 <constant cols="12" digits="1" name="advanceTable3" rows="12" units="deg">
