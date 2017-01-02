@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.0.14 - EFI Analytics, Inc." tuneComment="" writeDate="Sun Jan 01 21:52:58 BRST 2017"/>
+<bibliography author="TunerStudio MS 3.0.14 - EFI Analytics, Inc." tuneComment="" writeDate="Mon Jan 02 16:54:00 BRST 2017"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms330N2"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -136,10 +136,10 @@
          100.0 
       </constant>
 <constant cols="1" digits="1" name="taeBins" rows="4" units="ms">
-         0.7 
-         1.0 
-         1.5 
-         2.0 
+         0.3 
+         0.4 
+         0.6 
+         0.8 
       </constant>
 <constant cols="1" digits="1" name="maeBins" rows="4" units="ms">
          0.0 
@@ -282,20 +282,20 @@
 <constant name="secondtrigopts1">"Off"</constant>
 <constant name="secondtrigopts2">"Off"</constant>
 <constant name="secondtrigopts3">"Off"</constant>
-<constant digits="1" name="tpsThresh" units="%/s">100.0</constant>
+<constant digits="1" name="tpsThresh" units="%/s">75.0</constant>
 <constant digits="0" name="mapThresh" units="kPa/s">100.0</constant>
 <constant digits="1" name="taeColdA" units="ms">3.0</constant>
 <constant digits="0" name="taeColdM" units="%">130.0</constant>
 <constant digits="1" name="mapsample_angle" units="deg">40.0</constant>
-<constant digits="1" name="taeTime" units="s">0.2</constant>
+<constant digits="1" name="taeTime" units="s">0.3</constant>
 <constant digits="0" name="tdePct">100.0</constant>
 <constant digits="1" name="floodClear" units="%">70.0</constant>
 <constant digits="1" name="TPSOXLimit" units="%">110.0</constant>
 <constant digits="0" name="tpsProportion" units="%">100.0</constant>
 <constant name="baroCorr">"Two Independent Sensors"</constant>
-<constant name="egoType">"Disabled"</constant>
+<constant name="egoType">"Single Wide Band"</constant>
 <constant name="EgoOption_dual">"Off"</constant>
-<constant digits="0" name="egoCount">8.0</constant>
+<constant digits="0" name="egoCount">4.0</constant>
 <constant digits="1" name="egoDelta" units="%">1.0</constant>
 <constant digits="0" name="oldegoLimit" units="%">15.0</constant>
 <constant digits="3" name="AFRTarget" units="Lambda">0.897996</constant>
@@ -349,7 +349,7 @@
 <constant digits="1" name="RevLimRtdAng" units="deg">0.0</constant>
 <constant digits="0" name="RevLimNormal2" units="RPM">8500.0</constant>
 <constant digits="0" name="TC5_required_width" units="uSec">416.66875</constant>
-<constant digits="0" name="egoLimit" units="%">10.0</constant>
+<constant digits="0" name="egoLimit" units="%">15.0</constant>
 <constant digits="1" name="stoich" units="AFR">14.7</constant>
 <constant name="enable_pollADC03">"Disable"</constant>
 <constant name="enable_pollADC47">"Disable"</constant>
@@ -404,10 +404,10 @@
 <constant digits="0" name="can_poll_id2">4.0</constant>
 <constant digits="0" name="can_poll_id3">120.0</constant>
 <constant digits="0" name="hw_latency" units="usec">0.0</constant>
-<constant digits="0" name="ego_startdelay" units="sec">10.0</constant>
+<constant digits="0" name="ego_startdelay" units="sec">0.0</constant>
 <constant name="loadCombine">"multiplicitive"</constant>
 <constant name="loadMult">"multiply"</constant>
-<constant name="loadStoich">"include AFRtarget"</constant>
+<constant name="loadStoich">"don't include AFRtarget"</constant>
 <constant digits="0" name="baud">115200.0</constant>
 <constant digits="2" name="MAPOXLimit" units="kPa">100.0</constant>
 <constant name="board_type">"MS2"</constant>
@@ -415,7 +415,7 @@
 <constant digits="0" name="mapsample_window" units="deg">10.0</constant>
 <constant name="can_poll">"Disable"</constant>
 <constant digits="0" name="can_poll_id0">5.0</constant>
-<constant digits="2" name="MAPOXMin" units="kPa">10.0</constant>
+<constant digits="2" name="MAPOXMin" units="kPa">0.0</constant>
 <constant cols="1" digits="0" name="psEnabled" rows="7" units="on/off">
          0.0 
          0.0 
@@ -474,11 +474,11 @@
       </constant>
 <constant digits="1" name="aeTaperTime" units="s">0.1</constant>
 <constant digits="1" name="primedelay" units="s">0.0</constant>
-<constant digits="1" name="aeEndPW" units="ms">2.0</constant>
+<constant digits="1" name="aeEndPW" units="ms">0.0</constant>
 <constant name="egoAlgorithm">"PID"</constant>
-<constant digits="0" name="egoKP" units="%">50.0</constant>
-<constant digits="0" name="egoKI" units="%">30.0</constant>
-<constant digits="0" name="egoKD" units="%">0.0</constant>
+<constant digits="0" name="egoKP" units="%">40.0</constant>
+<constant digits="0" name="egoKI" units="%">60.0</constant>
+<constant digits="0" name="egoKD" units="%">70.0</constant>
 <constant digits="0" name="egoKdelay1" units="ms">10.0</constant>
 <constant digits="0" name="egoKdelay2" units="revs">4000.0</constant>
 <constant name="flexFuel">"Disabled"</constant>
@@ -1515,6 +1515,7 @@
 <constant digits="1" name="testint" units="ms">199.936</constant>
 <constant digits="0" name="testrpm" units="RPM">600.1920615</constant>
 <constant digits="3" name="testpw" units="ms">1.000332</constant>
+<constant digits="0" name="testinjcnt">100.0</constant>
 <constant name="testsel_inj">"Inj2"</constant>
 <constant name="testsel_coil">"CoilA"</constant>
 <constant cols="12" digits="1" name="advanceTable3" rows="12" units="deg">
