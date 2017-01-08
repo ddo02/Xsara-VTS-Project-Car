@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.0.14 - EFI Analytics, Inc." tuneComment="" writeDate="Sun Jan 08 16:10:25 BRST 2017"/>
+<bibliography author="TunerStudio MS 3.0.14 - EFI Analytics, Inc." tuneComment="" writeDate="Sun Jan 08 18:31:10 BRST 2017"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms330N2"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -1110,7 +1110,7 @@
 <constant name="ts_port_s">"PE1"</constant>
 <constant name="OvrRunC">"On"</constant>
 <constant name="f5_0_tsf">"Off"</constant>
-<constant name="f5_0_tsf_opt">"Hardware"</constant>
+<constant name="f5_0_tsf_opt">"kPa"</constant>
 <constant name="f5_0_tss_opt">"Hardware"</constant>
 <constant name="f5_0_tss">"Off"</constant>
 <constant digits="0" name="pwmidlecranktaper" units="s">30.0</constant>
@@ -1515,7 +1515,6 @@
 <constant digits="1" name="testint" units="ms">199.936</constant>
 <constant digits="0" name="testrpm" units="RPM">600.1920615</constant>
 <constant digits="3" name="testpw" units="ms">1.000332</constant>
-<constant digits="0" name="testinjcnt">100.0</constant>
 <constant name="testsel_inj">"Inj2"</constant>
 <constant name="testsel_coil">"CoilA"</constant>
 <constant cols="12" digits="1" name="advanceTable3" rows="12" units="deg">
