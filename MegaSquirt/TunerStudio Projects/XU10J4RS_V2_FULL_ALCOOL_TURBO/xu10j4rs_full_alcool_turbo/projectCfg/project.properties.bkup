@@ -1,7 +1,7 @@
 #Project Attributes.
 #TunerStudio by EFI Analytics, Inc
-#Last Saved on: Tue Jan 10 18:07:35 BRST 2017
-#Tue Jan 10 18:07:35 BRST 2017
+#Last Saved on: Wed Jan 11 18:10:50 BRST 2017
+#Wed Jan 11 18:10:50 BRST 2017
 boostctlSettingsBoost\ Control\ Settings_width=762
 tpswot_curveTPS\ for\ WOT_width=404
 idleAdvance_adaptive_curveIdle\ Adaptive\ Advance\ Timing_height=423
@@ -89,10 +89,10 @@ injTiming1Map3DInjection\ Timing\ Table1_X=556
 egoControlEGO\ Control_X=786
 flash_unlockUn/Lock\ calibrations_height=206
 CommSettingMSCommDriver.RS232\ Serial\ InterfaceCom\ Port=COM6
-flash_unlockUn/Lock\ calibrations_Y=256
 crankingPWCranking\ Pulsewidth%_Y=65
-flash_unlockUn/Lock\ calibrations_X=417
+flash_unlockUn/Lock\ calibrations_Y=256
 crankingPWCranking\ Pulsewidth%_X=176
+flash_unlockUn/Lock\ calibrations_X=417
 warmup_curve_Auto\ Scale\ X\ Axis\ Maximum=false
 refTable_001_txtTemp3=90
 refTable_001_txtTemp2=50
@@ -150,7 +150,7 @@ CommSettingCom\ Port=COM4
 combinedidleIdle\ Control_height=444
 limitsettingsLimit\ settings_X=758
 baseEngine\ and\ Sequential\ Settings_height=531
-Triggers.EventTrigger\:Data\ log\:triggered=true
+Triggers.EventTrigger\:Data\ log\:triggered=false
 pwmidle_target_curveClosed\ loop\ idle\ target\ rpms_height=497
 refTable_000_chkFahrenheit=false
 overrunOver\ Run\ Fuel\ Cut_width=404
@@ -225,8 +225,8 @@ barometerCorrBarometric\ Correction_height=466
 warmup_curve_Auto\ Scale\ Y\ Axis\ Maximum=false
 canId=0
 pwmidle_crank_dutyorsteps_curveIdle\ Cranking\ duty/steps_width=553
-baseEngine\ and\ Sequential\ Settings_Y=312
-baseEngine\ and\ Sequential\ Settings_X=265
+baseEngine\ and\ Sequential\ Settings_Y=278
+baseEngine\ and\ Sequential\ Settings_X=1558
 tsSupplementalFieldsVehicle\ Specifications_width=674
 nestedwarmup_curveWarmup\ Enrichment\ percent\ multiplier_height=654
 refTable_000_txtTemp3=90
