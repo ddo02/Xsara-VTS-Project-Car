@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.0.14 - EFI Analytics, Inc." tuneComment="" writeDate="Thu Jan 12 18:59:32 BRST 2017"/>
+<bibliography author="TunerStudio MS 3.0.14 - EFI Analytics, Inc." tuneComment="" writeDate="Thu Jan 19 18:12:52 BRST 2017"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms330N2"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -260,7 +260,7 @@
 <constant digits="0" name="asTolerance" units="%">70.0</constant>
 <constant digits="0" name="pulseTolerance" units="%">25.0</constant>
 <constant name="IdleCtl">"Stepper valve (4 or 6 wire)"</constant>
-<constant name="IdleCtl_alg">"Open-loop (warmup)"</constant>
+<constant name="IdleCtl_alg">"Closed-loop"</constant>
 <constant name="IdleCtl_home">"Closed"</constant>
 <constant name="IdleCtl_out">"Normal"</constant>
 <constant digits="0" name="IACtstep" units="ms">4.0</constant>
@@ -272,7 +272,7 @@
 <constant digits="0" name="IACcrankxt" units="sec">5.0</constant>
 <constant name="IACcurlim">"Hold current"</constant>
 <constant digits="3" name="injOpen" units="ms">0.5</constant>
-<constant digits="3" name="battFac" units="ms/v">0.0500001</constant>
+<constant digits="3" name="battFac" units="ms/v">0.1000002</constant>
 <constant name="OverBoostOption">"Spark Cut"</constant>
 <constant name="OverBoostOption_tol">"Off"</constant>
 <constant name="OverBoostOption_flexboost">"Off"</constant>
@@ -686,7 +686,7 @@
          1022.0 
          990.0 
          950.0 
-         900.0 
+         800.0 
       </constant>
 <constant cols="1" digits="1" name="pwmidle_clt_temps" rows="8" units="°C">
          21.109 
@@ -699,27 +699,27 @@
          61.4383 
       </constant>
 <constant digits="0" name="pwmidle_ms" units="ms">200.0</constant>
-<constant digits="0" name="pwmidle_close_delay" units="sec">0.0</constant>
+<constant digits="0" name="pwmidle_close_delay" units="sec">1.0</constant>
 <constant digits="1" name="pwmidle_open_duty" units="%">58.8</constant>
 <constant digits="0" name="pwmidle_open_steps" units="steps">150.0</constant>
-<constant digits="1" name="pwmidle_closed_duty" units="%">9.8</constant>
-<constant digits="0" name="pwmidle_closed_steps" units="steps">25.0</constant>
+<constant digits="1" name="pwmidle_closed_duty" units="%">3.92</constant>
+<constant digits="0" name="pwmidle_closed_steps" units="steps">10.0</constant>
 <constant digits="0" name="pwmidle_pid_wait_timer" units="sec">2.0</constant>
 <constant digits="1" name="pwmidle_min_duty" units="%">7.84</constant>
 <constant digits="0" name="pwmidle_min_steps" units="steps">20.0</constant>
 <constant digits="1" name="pwmidle_tps_threshold" units="%">1.0</constant>
 <constant digits="1" name="pwmidle_dp_adder" units="%">1.176</constant>
 <constant digits="0" name="pwmidle_dp_adder_steps" units="steps">3.0</constant>
-<constant digits="0" name="pwmidle_rpmdot_threshold" units="rpm/sec">500.0</constant>
-<constant digits="1" name="pwmidle_decelload_threshold" units="%">16.0</constant>
+<constant digits="0" name="pwmidle_rpmdot_threshold" units="rpm/sec">100.0</constant>
+<constant digits="1" name="pwmidle_decelload_threshold" units="%">20.0</constant>
 <constant digits="1" name="pwmidle_Kp_new" units="%">100.0</constant>
-<constant digits="1" name="pwmidle_Ki_new" units="%">10.0</constant>
-<constant digits="1" name="pwmidle_Kd_new" units="%">80.0</constant>
+<constant digits="1" name="pwmidle_Ki_new" units="%">50.0</constant>
+<constant digits="1" name="pwmidle_Kd_new" units="%">20.0</constant>
 <constant name="pwmidle_freq">"92Hz"</constant>
-<constant name="pwmidle_freq_cl_opts_display_pid">"Basic"</constant>
+<constant name="pwmidle_freq_cl_opts_display_pid">"Advanced"</constant>
 <constant digits="0" name="pwmidle_max_rpm_new">236.0</constant>
 <constant digits="0" name="pwmidle_targ_ramptime" units="sec">10.0</constant>
-<constant digits="0" name="pwmidle_rpmdot_disablepid">800.0</constant>
+<constant digits="0" name="pwmidle_rpmdot_disablepid">200.0</constant>
 <constant name="pwmidle_port">"Local"</constant>
 <constant name="pwmidle_port2">"FIDLE"</constant>
 <constant digits="0" name="pwmidle_dp_decay_factor">0.0</constant>
@@ -1240,12 +1240,12 @@
 <constant cols="12" digits="1" name="advanceTable1" rows="12" units="deg">
          19.5 14.2 18.1 20.8 32.9 38.0 40.5 44.1 44.1 44.1 44.1 44.1 
          19.5 14.2 18.1 20.5 29.1 35.7 36.6 41.7 41.7 41.7 41.7 41.7 
-         19.5 14.2 18.1 20.3 28.8 33.8 34.8 39.7 39.7 39.7 39.7 39.7 
-         19.5 14.2 18.1 20.0 28.5 33.4 34.5 39.2 39.2 39.2 39.2 39.2 
-         19.5 14.2 18.1 18.0 24.8 28.3 30.8 33.8 34.7 34.7 34.7 34.7 
-         19.5 14.2 18.1 17.1 23.2 26.2 28.9 31.6 32.2 32.2 32.2 32.2 
-         18.1 13.9 18.7 15.6 20.9 23.4 26.4 28.8 30.1 30.1 30.1 30.1 
-         18.0 14.1 18.7 15.3 20.2 22.4 25.3 27.6 29.3 29.3 29.3 29.3 
+         19.5 14.2 17.1 19.3 28.8 33.8 34.8 39.7 39.7 39.7 39.7 39.7 
+         19.5 14.2 17.1 19.0 28.5 33.4 34.5 39.2 39.2 39.2 39.2 39.2 
+         19.5 14.2 17.1 17.0 24.8 28.3 30.8 33.8 34.7 34.7 34.7 34.7 
+         19.5 14.2 17.1 16.1 23.2 26.2 28.9 31.6 32.2 32.2 32.2 32.2 
+         18.1 13.9 17.7 14.6 20.9 23.4 26.4 28.8 30.1 30.1 30.1 30.1 
+         18.0 14.1 17.7 14.3 20.2 22.4 25.3 27.6 29.3 29.3 29.3 29.3 
          17.1 12.8 16.8 13.2 17.6 17.8 18.0 18.4 18.8 19.2 19.6 20.0 
          14.4 14.5 14.7 10.6 15.1 15.4 15.7 16.2 16.7 17.3 17.8 18.3 
          11.7 11.8 12.1 8.1 12.6 13.0 13.4 14.0 14.6 15.3 16.0 16.7 
@@ -1831,13 +1831,13 @@
 </page>
 <page number="4" size="1024">
 <constant cols="16" digits="0" name="veTable1" rows="16" units="%">
-         50.0 42.0 52.0 56.0 55.0 62.0 57.0 68.0 68.0 71.0 66.0 68.0 75.0 92.0 103.0 113.0 
-         50.0 43.0 57.0 55.0 56.0 55.0 59.0 57.0 65.0 75.0 70.0 70.0 82.0 93.0 103.0 113.0 
-         50.0 43.0 52.0 52.0 56.0 57.0 59.0 53.0 64.0 69.0 65.0 70.0 81.0 93.0 103.0 113.0 
-         51.0 43.0 48.0 49.0 53.0 54.0 63.0 54.0 60.0 66.0 66.0 71.0 84.0 94.0 104.0 114.0 
-         51.0 46.0 48.0 48.0 53.0 55.0 59.0 54.0 61.0 66.0 67.0 71.0 85.0 95.0 105.0 115.0 
-         52.0 48.0 46.0 49.0 54.0 54.0 57.0 56.0 62.0 67.0 67.0 71.0 85.0 94.0 106.0 116.0 
-         52.0 48.0 46.0 49.0 54.0 52.0 54.0 52.0 63.0 67.0 68.0 73.0 84.0 96.0 105.0 114.0 
+         50.0 45.0 52.0 56.0 55.0 62.0 57.0 68.0 68.0 71.0 66.0 68.0 75.0 92.0 103.0 113.0 
+         50.0 46.0 57.0 55.0 56.0 55.0 59.0 57.0 65.0 75.0 70.0 70.0 82.0 93.0 103.0 113.0 
+         50.0 49.0 52.0 52.0 56.0 57.0 59.0 53.0 64.0 69.0 65.0 70.0 81.0 93.0 103.0 113.0 
+         51.0 49.0 52.0 49.0 53.0 54.0 63.0 54.0 60.0 66.0 66.0 71.0 84.0 94.0 104.0 114.0 
+         51.0 49.0 48.0 48.0 53.0 55.0 59.0 54.0 61.0 66.0 67.0 71.0 85.0 95.0 105.0 115.0 
+         52.0 49.0 46.0 49.0 54.0 54.0 57.0 56.0 62.0 67.0 67.0 71.0 85.0 94.0 106.0 116.0 
+         52.0 49.0 46.0 49.0 54.0 52.0 54.0 52.0 63.0 67.0 68.0 73.0 84.0 96.0 105.0 114.0 
          53.0 49.0 48.0 48.0 52.0 53.0 55.0 54.0 64.0 70.0 70.0 74.0 86.0 97.0 106.0 115.0 
          53.0 50.0 51.0 51.0 52.0 52.0 55.0 55.0 66.0 72.0 73.0 77.0 86.0 95.0 106.0 116.0 
          54.0 50.0 57.0 57.0 53.0 56.0 67.0 58.0 66.0 72.0 74.0 78.0 86.0 97.0 106.0 116.0 
@@ -1993,15 +1993,15 @@
          100.0 
       </constant>
 <constant cols="12" digits="0" name="veTable1dozen" rows="12" units="%">
-         50.0 42.0 52.0 56.0 55.0 62.0 57.0 68.0 68.0 71.0 66.0 68.0 
-         75.0 92.0 103.0 113.0 50.0 43.0 57.0 55.0 56.0 55.0 59.0 57.0 
-         65.0 75.0 70.0 70.0 82.0 93.0 103.0 113.0 50.0 43.0 52.0 52.0 
+         50.0 45.0 52.0 56.0 55.0 62.0 57.0 68.0 68.0 71.0 66.0 68.0 
+         75.0 92.0 103.0 113.0 50.0 46.0 57.0 55.0 56.0 55.0 59.0 57.0 
+         65.0 75.0 70.0 70.0 82.0 93.0 103.0 113.0 50.0 49.0 52.0 52.0 
          56.0 57.0 59.0 53.0 64.0 69.0 65.0 70.0 81.0 93.0 103.0 113.0 
-         51.0 43.0 48.0 49.0 53.0 54.0 63.0 54.0 60.0 66.0 66.0 71.0 
-         84.0 94.0 104.0 114.0 51.0 46.0 48.0 48.0 53.0 55.0 59.0 54.0 
-         61.0 66.0 67.0 71.0 85.0 95.0 105.0 115.0 52.0 48.0 46.0 49.0 
+         51.0 49.0 52.0 49.0 53.0 54.0 63.0 54.0 60.0 66.0 66.0 71.0 
+         84.0 94.0 104.0 114.0 51.0 49.0 48.0 48.0 53.0 55.0 59.0 54.0 
+         61.0 66.0 67.0 71.0 85.0 95.0 105.0 115.0 52.0 49.0 46.0 49.0 
          54.0 54.0 57.0 56.0 62.0 67.0 67.0 71.0 85.0 94.0 106.0 116.0 
-         52.0 48.0 46.0 49.0 54.0 52.0 54.0 52.0 63.0 67.0 68.0 73.0 
+         52.0 49.0 46.0 49.0 54.0 52.0 54.0 52.0 63.0 67.0 68.0 73.0 
          84.0 96.0 105.0 114.0 53.0 49.0 48.0 48.0 52.0 53.0 55.0 54.0 
          64.0 70.0 70.0 74.0 86.0 97.0 106.0 115.0 53.0 50.0 51.0 51.0 
          52.0 52.0 55.0 55.0 66.0 72.0 73.0 77.0 86.0 95.0 106.0 116.0 
@@ -2579,18 +2579,18 @@
          99.99 
       </constant>
 <constant cols="5" digits="1" name="pwmidle_cl_initialvalues_duties" rows="5" units="%">
-         17.64 17.64 18.424 21.168 22.344 
-         16.464 16.072 15.288 18.032 19.208 
-         14.112 12.936 12.936 15.68 16.464 
-         14.504 14.504 14.504 17.248 18.424 
-         12.152 12.936 13.72 16.464 17.248 
+         17.64 17.64 16.856 20.384 22.344 
+         16.072 16.072 15.288 18.032 19.208 
+         12.936 12.936 14.112 16.856 18.032 
+         11.76 11.76 12.936 16.072 17.64 
+         10.976 10.976 12.152 15.288 17.248 
       </constant>
 <constant cols="5" digits="0" name="pwmidle_cl_initialvalues_steps" rows="5" units="steps">
-         45.0 45.0 47.0 54.0 57.0 
-         42.0 41.0 39.0 46.0 49.0 
-         36.0 33.0 33.0 40.0 42.0 
-         37.0 37.0 37.0 44.0 47.0 
-         31.0 33.0 35.0 42.0 44.0 
+         45.0 45.0 43.0 52.0 57.0 
+         41.0 41.0 39.0 46.0 49.0 
+         33.0 33.0 36.0 43.0 46.0 
+         30.0 30.0 33.0 41.0 45.0 
+         28.0 28.0 31.0 39.0 44.0 
       </constant>
 <constant cols="1" digits="3" name="mafv" rows="64" units="V">
          0.0 
