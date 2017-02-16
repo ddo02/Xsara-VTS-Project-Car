@@ -1,7 +1,7 @@
 #Project Attributes.
 #TunerStudio by EFI Analytics, Inc
-#Last Saved on: Wed Feb 15 21:59:44 BRST 2017
-#Wed Feb 15 21:59:44 BRST 2017
+#Last Saved on: Thu Feb 16 20:04:02 BRST 2017
+#Thu Feb 16 20:04:02 BRST 2017
 boostctlSettingsBoost\ Control\ Settings_width=798
 tpswot_curveTPS\ for\ WOT_width=404
 idleAdvance_adaptive_curveIdle\ Adaptive\ Advance\ Timing_height=564
@@ -9,8 +9,8 @@ egoControlEGO\ Control_width=450
 Triggers.ActiveTriggers=
 battcalibBattery\ Voltage\ Calibration_height=295
 xu10j4rs_full_alcool_turbo.veTable1Tbl_std_yAxisMin=0.0
-pwmidle_crank_dutyorsteps_curveIdle\ Cranking\ duty/steps_Y=60
-pwmidle_crank_dutyorsteps_curveIdle\ Cranking\ duty/steps_X=141
+pwmidle_crank_dutyorsteps_curveIdle\ Cranking\ duty/steps_Y=278
+pwmidle_crank_dutyorsteps_curveIdle\ Cranking\ duty/steps_X=195
 xu10j4rs_full_alcool_turbo.veTable1Tbl_minRPMFilter=1200.0
 matclt_curve%CLT\ used\ in\ MAT\ vs\ airflow_Y=340
 egoControlEGO\ Control_height=709
@@ -88,8 +88,8 @@ CommSettingVTS-PCCommDriver.RS232\ Serial\ InterfaceCom\ Port=COM6
 idlebinsIdle\ Warmup\ duty/steps_height=602
 veTable1TblVE\ Table\ 1_width=1280
 VeAnalyzePanel_veTable1Tbl_maxWeight=1.7976931348623157E308
-accelsettingsAccel\ enrich\ settings_Y=416
-accelsettingsAccel\ enrich\ settings_X=758
+accelsettingsAccel\ enrich\ settings_Y=244
+accelsettingsAccel\ enrich\ settings_X=596
 nestedasePctAfterstart\ Enrichment\ (ASE)\ percent\ adder_width=779
 injTiming1Map3DInjection\ Timing\ Table1_Y=251
 egoControlEGO\ Control_Y=0
@@ -121,8 +121,8 @@ baudRate=115200
 afrTable1Map3DLambda\ Table\ 1_Y=251
 afrTable1Map3DLambda\ Table\ 1_X=556
 idleAdvance_adaptive_curveIdle\ Adaptive\ Advance\ Timing_width=665
-combinedCLidleClosed-loop\ Idle\ Control_Y=33
-combinedCLidleClosed-loop\ Idle\ Control_X=315
+combinedCLidleClosed-loop\ Idle\ Control_Y=63
+combinedCLidleClosed-loop\ Idle\ Control_X=269
 manifoldTempCorr2MAT\ air\ density\ correction_Y=0
 xu10j4rs_full_alcool_turbo.veTable1Tbl_std_yAxisMax=100.0
 manifoldTempCorr2MAT\ air\ density\ correction_X=363
