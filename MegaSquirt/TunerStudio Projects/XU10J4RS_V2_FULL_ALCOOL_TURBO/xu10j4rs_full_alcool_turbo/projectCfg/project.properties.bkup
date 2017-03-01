@@ -1,7 +1,7 @@
 #Project Attributes.
 #TunerStudio by EFI Analytics, Inc
-#Last Saved on: Wed Mar 01 16:56:14 BRT 2017
-#Wed Mar 01 16:56:14 BRT 2017
+#Last Saved on: Wed Mar 01 16:56:15 BRT 2017
+#Wed Mar 01 16:56:15 BRT 2017
 boostctlSettingsBoost\ Control\ Settings_width=798
 tpswot_curveTPS\ for\ WOT_width=404
 idleAdvance_adaptive_curveIdle\ Adaptive\ Advance\ Timing_height=564
@@ -310,6 +310,7 @@ boostctlDutysBoost\ Control\ Duty_X=273
 tableswTable\ Switching_Y=96
 tableswTable\ Switching_X=718
 accelsettingsAccel\ enrich\ settings_height=207
+VeAnalyzeConsole.veTable3Tbl_selectedDash=Standard
 mafdialogMAF\ Settings_height=296
 flash_unlockUn/Lock\ calibrations_width=446
 aseTaperAfterstart\ Enrichment\ Taper_width=799
