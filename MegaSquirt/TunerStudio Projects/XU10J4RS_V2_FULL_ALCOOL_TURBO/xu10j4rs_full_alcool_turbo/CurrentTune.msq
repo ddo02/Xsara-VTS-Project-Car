@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.0.18 - EFI Analytics, Inc." tuneComment="" writeDate="Tue Feb 28 18:54:35 BRT 2017"/>
+<bibliography author="TunerStudio MS 3.0.18 - EFI Analytics, Inc." tuneComment="" writeDate="Wed Mar 01 08:50:25 BRT 2017"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms330N2"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>

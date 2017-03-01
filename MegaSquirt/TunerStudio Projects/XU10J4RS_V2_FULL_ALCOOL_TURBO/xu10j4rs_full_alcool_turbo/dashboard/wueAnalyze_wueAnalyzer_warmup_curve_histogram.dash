@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dsh xmlns="http://www.EFIAnalytics.com/:dsh">
-<bibliography author="TunerStudio 3.0.18 - EFI Analytics - support@efianalytics.com" company="EFI Analytics, © 2007 - 2017, All Rights Reserved." writeDate="Tue Feb 28 18:54:39 BRT 2017"/>
+<bibliography author="TunerStudio 3.0.18 - EFI Analytics - support@efianalytics.com" company="EFI Analytics, © 2007 - 2017, All Rights Reserved." writeDate="Wed Mar 01 08:50:29 BRT 2017"/>
 <versionInfo fileFormat="3.0" firmwareSignature="MS2Extra comms330N2"/>
 <gaugeCluster antiAliasing="true" backgroundDitherColor="-8355712" clusterBackgroundColor="-16777216" clusterBackgroundImageFileName="" clusterBackgroundImageStyle="Tile">
 <dashComp type="Gauge">
@@ -68,8 +68,8 @@
 <InvalidState type="boolean">false</InvalidState>
 <ItalicFont type="boolean">false</ItalicFont>
 <AntialiasingOn type="boolean">true</AntialiasingOn>
-<FontFamily type="String"/>
 <Dirty type="boolean">true</Dirty>
+<FontFamily type="String"/>
 <EcuConfigurationName type="String"/>
 <Id type="String"/>
 </dashComp>
@@ -138,8 +138,8 @@
 <InvalidState type="boolean">false</InvalidState>
 <ItalicFont type="boolean">false</ItalicFont>
 <AntialiasingOn type="boolean">true</AntialiasingOn>
-<FontFamily type="String"/>
 <Dirty type="boolean">true</Dirty>
+<FontFamily type="String"/>
 <EcuConfigurationName type="String"/>
 <Id type="String"/>
 </dashComp>
@@ -208,8 +208,8 @@
 <InvalidState type="boolean">false</InvalidState>
 <ItalicFont type="boolean">false</ItalicFont>
 <AntialiasingOn type="boolean">true</AntialiasingOn>
-<FontFamily type="String"/>
 <Dirty type="boolean">true</Dirty>
+<FontFamily type="String"/>
 <EcuConfigurationName type="String"/>
 <Id type="String"/>
 </dashComp>
@@ -278,8 +278,8 @@
 <InvalidState type="boolean">false</InvalidState>
 <ItalicFont type="boolean">false</ItalicFont>
 <AntialiasingOn type="boolean">true</AntialiasingOn>
-<FontFamily type="String"/>
 <Dirty type="boolean">true</Dirty>
+<FontFamily type="String"/>
 <EcuConfigurationName type="String"/>
 <Id type="String"/>
 </dashComp>
@@ -348,8 +348,8 @@
 <InvalidState type="boolean">false</InvalidState>
 <ItalicFont type="boolean">false</ItalicFont>
 <AntialiasingOn type="boolean">true</AntialiasingOn>
-<FontFamily type="String"/>
 <Dirty type="boolean">true</Dirty>
+<FontFamily type="String"/>
 <EcuConfigurationName type="String"/>
 <Id type="String"/>
 </dashComp>
@@ -418,8 +418,8 @@
 <InvalidState type="boolean">false</InvalidState>
 <ItalicFont type="boolean">false</ItalicFont>
 <AntialiasingOn type="boolean">true</AntialiasingOn>
-<FontFamily type="String"/>
 <Dirty type="boolean">true</Dirty>
+<FontFamily type="String"/>
 <EcuConfigurationName type="String"/>
 <Id type="String"/>
 </dashComp>
@@ -443,7 +443,7 @@
 <HighCriticalVP type="ValueProvider">110.0</HighCriticalVP>
 <HighWarning type="double">101.0</HighWarning>
 <HighWarningVP type="ValueProvider">101.0</HighWarningVP>
-<HistoricalPeakValue type="double">0.0</HistoricalPeakValue>
+<HistoricalPeakValue type="double">50.0</HistoricalPeakValue>
 <HistoryDelay type="int">15000</HistoryDelay>
 <LabelDigits type="int">1</LabelDigits>
 <LowCritical type="double">90.0</LowCritical>
@@ -488,8 +488,8 @@
 <InvalidState type="boolean">false</InvalidState>
 <ItalicFont type="boolean">false</ItalicFont>
 <AntialiasingOn type="boolean">true</AntialiasingOn>
-<FontFamily type="String"/>
 <Dirty type="boolean">true</Dirty>
+<FontFamily type="String"/>
 <EcuConfigurationName type="String"/>
 <Id type="String"/>
 </dashComp>
@@ -513,7 +513,7 @@
 <HighCriticalVP type="ValueProvider">110.0</HighCriticalVP>
 <HighWarning type="double">101.0</HighWarning>
 <HighWarningVP type="ValueProvider">101.0</HighWarningVP>
-<HistoricalPeakValue type="double">0.0</HistoricalPeakValue>
+<HistoricalPeakValue type="double">50.0</HistoricalPeakValue>
 <HistoryDelay type="int">15000</HistoryDelay>
 <LabelDigits type="int">1</LabelDigits>
 <LowCritical type="double">90.0</LowCritical>
@@ -558,8 +558,8 @@
 <InvalidState type="boolean">false</InvalidState>
 <ItalicFont type="boolean">false</ItalicFont>
 <AntialiasingOn type="boolean">true</AntialiasingOn>
-<FontFamily type="String"/>
 <Dirty type="boolean">true</Dirty>
+<FontFamily type="String"/>
 <EcuConfigurationName type="String"/>
 <Id type="String"/>
 </dashComp>
@@ -583,7 +583,7 @@
 <HighCriticalVP type="ValueProvider">999.0</HighCriticalVP>
 <HighWarning type="double">999.0</HighWarning>
 <HighWarningVP type="ValueProvider">999.0</HighWarningVP>
-<HistoricalPeakValue type="double">0.0</HistoricalPeakValue>
+<HistoricalPeakValue type="double">50.0</HistoricalPeakValue>
 <HistoryDelay type="int">15000</HistoryDelay>
 <LabelDigits type="int">0</LabelDigits>
 <LowCritical type="double">-1.0</LowCritical>
@@ -628,8 +628,8 @@
 <InvalidState type="boolean">false</InvalidState>
 <ItalicFont type="boolean">false</ItalicFont>
 <AntialiasingOn type="boolean">true</AntialiasingOn>
-<FontFamily type="String"/>
 <Dirty type="boolean">true</Dirty>
+<FontFamily type="String"/>
 <EcuConfigurationName type="String"/>
 <Id type="String"/>
 </dashComp>
@@ -653,7 +653,7 @@
 <HighCriticalVP type="ValueProvider">999.0</HighCriticalVP>
 <HighWarning type="double">999.0</HighWarning>
 <HighWarningVP type="ValueProvider">999.0</HighWarningVP>
-<HistoricalPeakValue type="double">0.0</HistoricalPeakValue>
+<HistoricalPeakValue type="double">50.0</HistoricalPeakValue>
 <HistoryDelay type="int">15000</HistoryDelay>
 <LabelDigits type="int">0</LabelDigits>
 <LowCritical type="double">-1.0</LowCritical>
@@ -698,8 +698,8 @@
 <InvalidState type="boolean">false</InvalidState>
 <ItalicFont type="boolean">false</ItalicFont>
 <AntialiasingOn type="boolean">true</AntialiasingOn>
-<FontFamily type="String"/>
 <Dirty type="boolean">true</Dirty>
+<FontFamily type="String"/>
 <EcuConfigurationName type="String"/>
 <Id type="String"/>
 </dashComp>
