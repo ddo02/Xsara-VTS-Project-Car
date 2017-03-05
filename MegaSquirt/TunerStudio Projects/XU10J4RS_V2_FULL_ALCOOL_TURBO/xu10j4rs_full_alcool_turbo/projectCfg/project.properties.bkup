@@ -1,7 +1,7 @@
 #Project Attributes.
 #TunerStudio by EFI Analytics, Inc
-#Last Saved on: Sat Mar 04 10:04:21 BRT 2017
-#Sat Mar 04 10:04:21 BRT 2017
+#Last Saved on: Sat Mar 04 16:44:49 BRT 2017
+#Sat Mar 04 16:44:49 BRT 2017
 boostctlSettingsBoost\ Control\ Settings_width=798
 tpswot_curveTPS\ for\ WOT_width=404
 idleAdvance_adaptive_curveIdle\ Adaptive\ Advance\ Timing_height=564
@@ -53,8 +53,8 @@ veGenerator_txtDisplacementCid=122
 knockSettingsKnock\ Sensor\ Settings_width=933
 outputtest_ioOutput\ Test\ Mode\ -\ I/O_width=937
 time_accel_tpsdot_curve_showText=false
-veTable1TblVE\ Table\ 1_Y=0
-veTable1TblVE\ Table\ 1_X=0
+veTable1TblVE\ Table\ 1_Y=445
+veTable1TblVE\ Table\ 1_X=244
 map_sample_dialogMAP\ sample\ general\ settings_width=404
 CommSettingMSCommDriver.RS232\ Serial\ InterfaceBluetooth\ Port=true
 Triggers.EventTrigger\:Data\ log\:resetExpression=AppEvent.dataLoggingActive \=\= 0
@@ -87,7 +87,7 @@ map_sample_dialogMAP\ sample\ general\ settings_X=758
 userDash1.FileName=DDO.dash
 CommSettingVTS-PCCommDriver.RS232\ Serial\ InterfaceCom\ Port=COM6
 idlebinsIdle\ Warmup\ duty/steps_height=602
-veTable1TblVE\ Table\ 1_width=1280
+veTable1TblVE\ Table\ 1_width=1047
 VeAnalyzePanel_veTable1Tbl_maxWeight=1.7976931348623157E308
 accelsettingsAccel\ enrich\ settings_Y=244
 accelsettingsAccel\ enrich\ settings_X=596
@@ -321,9 +321,9 @@ iactestIdle\ valve\ test_X=258
 time_accel_tpsdot_curve_Auto\ Scale\ Y\ Axis\ Maximum=true
 combinedignitionCombined\ Ignition\ Options_width=821
 asePct_Set\ X\ Axis\ Minimum=-40.0
-veTable3TblVE\ Table\ 3_Y=20
+veTable3TblVE\ Table\ 3_Y=12
 tableswTable\ Switching_width=404
-veTable3TblVE\ Table\ 3_X=43
+veTable3TblVE\ Table\ 3_X=247
 pwmidle_cl_initialvaluesClosed-loop\ Idle\ Initial\ Values_width=682
 idleAdvance_adaptive_curveIdle\ Adaptive\ Advance\ Timing_Y=103
 idleAdvance_adaptive_curveIdle\ Adaptive\ Advance\ Timing_X=420
@@ -363,7 +363,7 @@ N2OSystemNitrous\ System_height=605
 battcalibBattery\ Voltage\ Calibration_width=446
 matBasedRetardMAT-Based\ Timing\ Retard_width=508
 PersistedAccumulatedValue_(\ tsInputSpeedMPH\ /\ 3600.0\ *\ deltatime\ )=0.0
-veTable1TblVE\ Table\ 1_height=738
+veTable1TblVE\ Table\ 1_height=494
 injTiming1Map3DInjection\ Timing\ Table1_width=808
 coldAdvance_Set\ X\ Axis\ Minimum=-40.0
 injCharsInjector\ Dead-time/PWM_width=446
