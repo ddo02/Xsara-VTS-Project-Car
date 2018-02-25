@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.0.14 - EFI Analytics, Inc." tuneComment="" writeDate="Sun Sep 03 20:25:16 BRT 2017"/>
+<bibliography author="TunerStudio MS 3.0.18 - EFI Analytics, Inc." tuneComment="" writeDate="Sun Feb 25 10:46:17 BRT 2018"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms330N2"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -271,8 +271,8 @@
 <constant digits="1" name="IdleHyst" units="°C">2.7775</constant>
 <constant digits="0" name="IACcrankxt" units="sec">5.0</constant>
 <constant name="IACcurlim">"Always on"</constant>
-<constant digits="3" name="injOpen" units="ms">0.6</constant>
-<constant digits="3" name="battFac" units="ms/v">0.0700001</constant>
+<constant digits="3" name="injOpen" units="ms">1.157</constant>
+<constant digits="3" name="battFac" units="ms/v">0.1650003</constant>
 <constant name="OverBoostOption">"Spark Cut"</constant>
 <constant name="OverBoostOption_tol">"Off"</constant>
 <constant name="OverBoostOption_flexboost">"Off"</constant>
@@ -306,7 +306,7 @@
 <constant digits="1" name="fastIdleT" units="°C">59.994</constant>
 <constant digits="1" name="egoTemp" units="°C">49.995</constant>
 <constant digits="0" name="egoRPM" units="RPM">700.0</constant>
-<constant digits="2" name="reqFuel" units="ms">4.2</constant>
+<constant digits="2" name="reqFuel" units="ms">3.1</constant>
 <constant digits="0" name="divider">2.0</constant>
 <constant name="alternate">"Alternating"</constant>
 <constant name="altcrank">"Every event"</constant>
@@ -368,7 +368,7 @@
 <constant name="port2_type">"Digital (8 signals)"</constant>
 <constant name="port3_type">"Digital (8 signals)"</constant>
 <constant name="port_generic">"Disabled"</constant>
-<constant digits="0" name="enginesize" units="cc">1999.0</constant>
+<constant digits="0" name="enginesize" units="cc">2000.0</constant>
 <constant digits="0" name="remotePWMfreq" units="MHz">24.0</constant>
 <constant digits="0" name="remotePWMprescale">128.0</constant>
 <constant name="can_bcast1_on">"Off"</constant>
@@ -1334,7 +1334,7 @@
 <constant digits="0" name="flats_arm" units="RPM">5000.0</constant>
 <constant digits="2" name="flats_deg" units="deg">0.0</constant>
 <constant digits="0" name="flats_hrd" units="RPM">7000.0</constant>
-<constant digits="0" name="staged_pri_size" units="cc">1680.0</constant>
+<constant digits="0" name="staged_pri_size" units="cc">1085.0</constant>
 <constant digits="0" name="staged_sec_size" units="cc">263.0</constant>
 <constant name="staged_first_param">"Off"</constant>
 <constant name="staged_second_param">"Off"</constant>
