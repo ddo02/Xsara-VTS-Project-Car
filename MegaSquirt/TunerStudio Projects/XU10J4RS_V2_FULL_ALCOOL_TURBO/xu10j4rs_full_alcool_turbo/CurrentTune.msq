@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Sun Nov 25 10:23:10 BRST 2018"/>
+<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Tue Nov 27 20:38:56 BRST 2018"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms330N2"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -137,9 +137,9 @@
       </constant>
 <constant cols="1" digits="1" name="taeBins" rows="4" units="ms">
          1.0 
-         1.2 
-         1.4 
-         1.6 
+         2.2 
+         2.5 
+         2.8 
       </constant>
 <constant cols="1" digits="1" name="maeBins" rows="4" units="ms">
          0.0 
@@ -245,8 +245,8 @@
 <constant digits="0" name="cltmult" units="%">100.0</constant>
 <constant digits="1" name="mat0" units="°C">-17.776</constant>
 <constant digits="0" name="matmult" units="%">100.0</constant>
-<constant digits="0" name="tpsMin" units="ADC">153.0</constant>
-<constant digits="0" name="tpsMax" units="ADC">962.0</constant>
+<constant digits="0" name="tpsMin" units="ADC">169.0</constant>
+<constant digits="0" name="tpsMax" units="ADC">958.0</constant>
 <constant digits="1" name="batt0" units="V">0.1</constant>
 <constant digits="1" name="battmax" units="V">29.7</constant>
 <constant digits="1" name="ego0" units="afr">0.0</constant>
@@ -288,7 +288,7 @@
 <constant digits="0" name="taeColdM" units="%">200.0</constant>
 <constant digits="1" name="mapsample_angle" units="deg">40.0</constant>
 <constant digits="1" name="taeTime" units="s">0.1</constant>
-<constant digits="0" name="tdePct">90.0</constant>
+<constant digits="0" name="tdePct">60.0</constant>
 <constant digits="1" name="floodClear" units="%">70.0</constant>
 <constant digits="1" name="TPSOXLimit" units="%">110.0</constant>
 <constant digits="0" name="tpsProportion" units="%">100.0</constant>
@@ -306,7 +306,7 @@
 <constant digits="1" name="fastIdleT" units="°C">59.994</constant>
 <constant digits="1" name="egoTemp" units="°C">49.995</constant>
 <constant digits="0" name="egoRPM" units="RPM">700.0</constant>
-<constant digits="2" name="reqFuel" units="ms">8.7</constant>
+<constant digits="2" name="reqFuel" units="ms">13.1</constant>
 <constant digits="0" name="divider">2.0</constant>
 <constant name="alternate">"Alternating"</constant>
 <constant name="altcrank">"Every event"</constant>
@@ -710,7 +710,7 @@
 <constant digits="1" name="pwmidle_tps_threshold" units="%">1.0</constant>
 <constant digits="1" name="pwmidle_dp_adder" units="%">1.176</constant>
 <constant digits="0" name="pwmidle_dp_adder_steps" units="steps">3.0</constant>
-<constant digits="0" name="pwmidle_rpmdot_threshold" units="rpm/sec">100.0</constant>
+<constant digits="0" name="pwmidle_rpmdot_threshold" units="rpm/sec">1000.0</constant>
 <constant digits="1" name="pwmidle_decelload_threshold" units="%">35.0</constant>
 <constant digits="1" name="pwmidle_Kp_new" units="%">100.0</constant>
 <constant digits="1" name="pwmidle_Ki_new" units="%">50.0</constant>
@@ -862,7 +862,7 @@
          205.0 
          155.0 
          110.0 
-         100.0 
+         60.0 
       </constant>
 <constant cols="1" digits="0" name="asePctTable" rows="10" units="%">
          45.0 
@@ -1334,7 +1334,7 @@
 <constant digits="0" name="flats_arm" units="RPM">5000.0</constant>
 <constant digits="2" name="flats_deg" units="deg">0.0</constant>
 <constant digits="0" name="flats_hrd" units="RPM">7000.0</constant>
-<constant digits="0" name="staged_pri_size" units="cc">630.0</constant>
+<constant digits="0" name="staged_pri_size" units="cc">420.0</constant>
 <constant digits="0" name="staged_sec_size" units="cc">263.0</constant>
 <constant name="staged_first_param">"Off"</constant>
 <constant name="staged_second_param">"Off"</constant>
@@ -1515,6 +1515,7 @@
 <constant digits="1" name="testint" units="ms">199.936</constant>
 <constant digits="0" name="testrpm" units="RPM">600.1920615</constant>
 <constant digits="3" name="testpw" units="ms">1.000332</constant>
+<constant digits="0" name="testinjcnt">100.0</constant>
 <constant name="testsel_inj">"Inj4/D"</constant>
 <constant name="testsel_coil">"CoilA"</constant>
 <constant cols="12" digits="1" name="advanceTable3" rows="12" units="deg">
@@ -1582,7 +1583,7 @@
          5500.0 
          5500.0 
       </constant>
-<constant digits="0" name="iacpostest" units="steps">0.0</constant>
+<constant digits="0" name="iacpostest" units="steps">70.0</constant>
 <constant digits="0" name="iachometest" units="steps">160.0</constant>
 <constant name="flashlock">"Locked"</constant>
 <constant name="idleadvance_on">"Adaptive"</constant>
@@ -1842,10 +1843,10 @@
          40.0 38.0 39.0 42.0 50.0 54.0 56.0 56.0 59.0 63.0 66.0 67.0 68.0 66.0 64.0 63.0 
          41.0 39.0 40.0 42.0 49.0 52.0 56.0 56.0 59.0 64.0 64.0 67.0 67.0 66.0 65.0 63.0 
          42.0 40.0 41.0 44.0 49.0 52.0 56.0 54.0 59.0 67.0 66.0 66.0 67.0 66.0 65.0 63.0 
-         42.0 41.0 42.0 43.0 46.0 51.0 56.0 56.0 63.0 66.0 66.0 65.0 66.0 66.0 65.0 63.0 
-         42.0 42.0 43.0 43.0 48.0 54.0 58.0 58.0 61.0 65.0 65.0 66.0 67.0 65.0 64.0 62.0 
-         43.0 43.0 44.0 46.0 52.0 55.0 59.0 59.0 61.0 65.0 64.0 65.0 66.0 65.0 63.0 62.0 
-         43.0 44.0 45.0 46.0 55.0 57.0 60.0 62.0 63.0 64.0 65.0 66.0 66.0 65.0 64.0 62.0 
+         41.0 41.0 42.0 43.0 46.0 51.0 56.0 56.0 63.0 66.0 66.0 65.0 66.0 66.0 65.0 63.0 
+         39.0 42.0 43.0 43.0 48.0 54.0 58.0 58.0 61.0 65.0 65.0 66.0 67.0 65.0 64.0 62.0 
+         38.0 43.0 44.0 46.0 52.0 55.0 59.0 59.0 61.0 65.0 64.0 65.0 66.0 65.0 63.0 62.0 
+         36.0 44.0 45.0 46.0 55.0 57.0 60.0 62.0 63.0 64.0 65.0 66.0 66.0 65.0 64.0 62.0 
       </constant>
 <constant cols="16" digits="0" name="veTable2" rows="16" units="%">
          45.0 48.0 51.0 55.0 56.0 57.0 59.0 61.0 62.0 64.0 65.0 67.0 69.0 71.0 73.0 73.0 
@@ -2010,11 +2011,11 @@
          68.0 66.0 64.0 63.0 41.0 39.0 40.0 42.0 49.0 52.0 56.0 56.0 
          59.0 64.0 64.0 67.0 67.0 66.0 65.0 63.0 42.0 40.0 41.0 44.0 
          49.0 52.0 56.0 54.0 59.0 67.0 66.0 66.0 67.0 66.0 65.0 63.0 
-         42.0 41.0 42.0 43.0 46.0 51.0 56.0 56.0 63.0 66.0 66.0 65.0 
-         66.0 66.0 65.0 63.0 42.0 42.0 43.0 43.0 48.0 54.0 58.0 58.0 
-         61.0 65.0 65.0 66.0 67.0 65.0 64.0 62.0 43.0 43.0 44.0 46.0 
+         41.0 41.0 42.0 43.0 46.0 51.0 56.0 56.0 63.0 66.0 66.0 65.0 
+         66.0 66.0 65.0 63.0 39.0 42.0 43.0 43.0 48.0 54.0 58.0 58.0 
+         61.0 65.0 65.0 66.0 67.0 65.0 64.0 62.0 38.0 43.0 44.0 46.0 
          52.0 55.0 59.0 59.0 61.0 65.0 64.0 65.0 66.0 65.0 63.0 62.0 
-         43.0 44.0 45.0 46.0 55.0 57.0 60.0 62.0 63.0 64.0 65.0 66.0 
+         36.0 44.0 45.0 46.0 55.0 57.0 60.0 62.0 63.0 64.0 65.0 66.0 
          66.0 65.0 64.0 62.0 45.0 48.0 51.0 55.0 56.0 57.0 59.0 61.0 
          62.0 64.0 65.0 67.0 69.0 71.0 73.0 73.0 46.0 49.0 52.0 56.0 
          57.0 58.0 60.0 62.0 63.0 65.0 66.0 68.0 70.0 72.0 74.0 74.0 
@@ -2578,18 +2579,18 @@
          99.99 
       </constant>
 <constant cols="5" digits="1" name="pwmidle_cl_initialvalues_duties" rows="5" units="%">
-         21.168 21.168 21.168 21.168 21.168 
-         20.776 20.776 20.776 20.776 20.776 
-         20.384 20.384 20.384 20.384 20.384 
-         19.992 19.992 19.992 19.992 19.992 
-         19.6 19.6 19.6 19.6 19.6 
+         11.368 12.544 16.856 16.856 16.856 
+         10.976 12.152 16.464 16.464 16.464 
+         10.584 11.76 16.072 16.072 16.072 
+         10.192 11.368 15.68 15.68 15.68 
+         9.8 10.976 15.288 15.288 15.288 
       </constant>
 <constant cols="5" digits="0" name="pwmidle_cl_initialvalues_steps" rows="5" units="steps">
-         54.0 54.0 54.0 54.0 54.0 
-         53.0 53.0 53.0 53.0 53.0 
-         52.0 52.0 52.0 52.0 52.0 
-         51.0 51.0 51.0 51.0 51.0 
-         50.0 50.0 50.0 50.0 50.0 
+         29.0 32.0 43.0 43.0 43.0 
+         28.0 31.0 42.0 42.0 42.0 
+         27.0 30.0 41.0 41.0 41.0 
+         26.0 29.0 40.0 40.0 40.0 
+         25.0 28.0 39.0 39.0 39.0 
       </constant>
 <constant cols="1" digits="3" name="mafv" rows="64" units="V">
          0.0 
