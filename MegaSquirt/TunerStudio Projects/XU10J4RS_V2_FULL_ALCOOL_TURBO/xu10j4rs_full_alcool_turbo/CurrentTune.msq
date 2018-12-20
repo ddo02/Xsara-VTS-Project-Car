@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Wed Dec 19 17:57:24 BRST 2018"/>
+<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Thu Dec 20 20:18:00 BRST 2018"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms330N2"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -37,15 +37,15 @@
          0.0 
       </pcVariable>
 <pcVariable cols="1" digits="0" name="wueAnalRecommend" rows="10" units="%">
-         118.0 
-         117.0 
-         115.0 
-         113.0 
-         101.0 
+         100.0 
+         100.0 
+         100.0 
+         100.0 
+         100.0 
+         100.0 
+         100.0 
          102.0 
-         101.0 
-         100.0 
-         100.0 
+         103.0 
          100.0 
       </pcVariable>
 </page>
@@ -124,22 +124,22 @@
          0.88439 0.877587 0.877587 0.870784 0.870784 0.863981 0.857178 0.850375 0.850375 0.829966 0.829966 0.829966 
       </constant>
 <constant cols="1" digits="0" name="wueBins" rows="10" units="%">
-         118.0 
-         117.0 
-         115.0 
-         113.0 
-         101.0 
+         100.0 
+         100.0 
+         100.0 
+         100.0 
+         100.0 
+         100.0 
+         100.0 
          102.0 
-         101.0 
-         100.0 
-         100.0 
+         103.0 
          100.0 
       </constant>
 <constant cols="1" digits="1" name="taeBins" rows="4" units="ms">
          0.5 
          1.9 
-         2.5 
-         2.8 
+         3.2 
+         4.3 
       </constant>
 <constant cols="1" digits="1" name="maeBins" rows="4" units="ms">
          0.0 
@@ -272,7 +272,7 @@
 <constant digits="0" name="IACcrankxt" units="sec">5.0</constant>
 <constant name="IACcurlim">"Always on"</constant>
 <constant digits="3" name="injOpen" units="ms">1.157</constant>
-<constant digits="3" name="battFac" units="ms/v">0.1650003</constant>
+<constant digits="3" name="battFac" units="ms/v">0.1000002</constant>
 <constant name="OverBoostOption">"Spark Cut"</constant>
 <constant name="OverBoostOption_tol">"Off"</constant>
 <constant name="OverBoostOption_flexboost">"Off"</constant>
@@ -284,8 +284,8 @@
 <constant name="secondtrigopts3">"Off"</constant>
 <constant digits="1" name="tpsThresh" units="%/s">10.0</constant>
 <constant digits="0" name="mapThresh" units="kPa/s">100.0</constant>
-<constant digits="1" name="taeColdA" units="ms">6.0</constant>
-<constant digits="0" name="taeColdM" units="%">200.0</constant>
+<constant digits="1" name="taeColdA" units="ms">20.0</constant>
+<constant digits="0" name="taeColdM" units="%">255.0</constant>
 <constant digits="1" name="mapsample_angle" units="deg">40.0</constant>
 <constant digits="1" name="taeTime" units="s">0.1</constant>
 <constant digits="0" name="tdePct">90.0</constant>
@@ -713,11 +713,11 @@
 <constant digits="0" name="pwmidle_rpmdot_threshold" units="rpm/sec">1000.0</constant>
 <constant digits="1" name="pwmidle_decelload_threshold" units="%">35.0</constant>
 <constant digits="1" name="pwmidle_Kp_new" units="%">100.0</constant>
-<constant digits="1" name="pwmidle_Ki_new" units="%">60.0</constant>
+<constant digits="1" name="pwmidle_Ki_new" units="%">70.0</constant>
 <constant digits="1" name="pwmidle_Kd_new" units="%">40.0</constant>
 <constant name="pwmidle_freq">"92Hz"</constant>
 <constant name="pwmidle_freq_cl_opts_display_pid">"Advanced"</constant>
-<constant digits="0" name="pwmidle_max_rpm_new">1.0</constant>
+<constant digits="0" name="pwmidle_max_rpm_new">2014.0</constant>
 <constant digits="0" name="pwmidle_targ_ramptime" units="sec">5.0</constant>
 <constant digits="0" name="pwmidle_rpmdot_disablepid">200.0</constant>
 <constant name="pwmidle_port">"Local"</constant>
@@ -854,15 +854,15 @@
       </constant>
 <constant cols="1" digits="0" name="crankPctTable" rows="10" units="%">
          530.0 
-         479.0 
-         426.0 
-         371.0 
-         313.0 
-         258.0 
+         499.0 
+         470.0 
+         442.0 
+         400.0 
+         298.0 
          205.0 
          155.0 
          108.0 
-         60.0 
+         70.0 
       </constant>
 <constant cols="1" digits="0" name="asePctTable" rows="10" units="%">
          45.0 
@@ -1120,7 +1120,7 @@
 <constant digits="1" name="fc_kpa" units="kPa">50.0</constant>
 <constant digits="1" name="fc_tps" units="%">0.5</constant>
 <constant digits="1" name="fc_clt" units="°C">39.996</constant>
-<constant digits="1" name="fc_delay" units="s">1.0</constant>
+<constant digits="1" name="fc_delay" units="s">1.5</constant>
 <constant name="tacho_opt80">"On"</constant>
 <constant name="tacho_opt40">"Normal"</constant>
 <constant name="tacho_opt3f">"AD07/JS4"</constant>
@@ -1836,9 +1836,9 @@
          89.0 86.0 89.0 93.0 102.0 102.0 111.0 116.0 141.0 160.0 160.0 164.0 163.0 162.0 157.0 152.0 
          89.0 86.0 90.0 94.0 104.0 109.0 127.0 132.0 144.0 162.0 161.0 165.0 165.0 163.0 158.0 154.0 
          89.0 86.0 91.0 96.0 103.0 108.0 134.0 139.0 146.0 161.0 162.0 166.0 166.0 164.0 159.0 155.0 
-         90.0 87.0 92.0 107.0 112.0 115.0 134.0 137.0 145.0 159.0 164.0 168.0 167.0 165.0 161.0 156.0 
-         92.0 87.0 92.0 102.0 109.0 120.0 134.0 136.0 146.0 161.0 165.0 169.0 168.0 166.0 162.0 158.0 
-         92.0 90.0 92.0 98.0 110.0 121.0 134.0 136.0 146.0 162.0 167.0 170.0 169.0 167.0 163.0 159.0 
+         90.0 87.0 92.0 101.0 105.0 115.0 134.0 137.0 145.0 159.0 164.0 168.0 167.0 165.0 161.0 156.0 
+         92.0 87.0 89.0 95.0 104.0 120.0 134.0 136.0 146.0 161.0 165.0 169.0 168.0 166.0 162.0 158.0 
+         92.0 90.0 89.0 94.0 110.0 121.0 134.0 136.0 146.0 162.0 167.0 170.0 169.0 167.0 163.0 159.0 
          93.0 91.0 93.0 96.0 112.0 121.0 136.0 139.0 149.0 159.0 168.0 171.0 170.0 168.0 164.0 161.0 
          94.0 92.0 94.0 97.0 112.0 124.0 137.0 139.0 153.0 163.0 170.0 173.0 171.0 169.0 166.0 162.0 
          100.0 98.0 101.0 104.0 118.0 129.0 138.0 142.0 157.0 167.0 168.0 174.0 172.0 170.0 167.0 163.0 
@@ -1999,10 +1999,10 @@
          102.0 102.0 111.0 116.0 141.0 160.0 160.0 164.0 163.0 162.0 157.0 152.0 
          89.0 86.0 90.0 94.0 104.0 109.0 127.0 132.0 144.0 162.0 161.0 165.0 
          165.0 163.0 158.0 154.0 89.0 86.0 91.0 96.0 103.0 108.0 134.0 139.0 
-         146.0 161.0 162.0 166.0 166.0 164.0 159.0 155.0 90.0 87.0 92.0 107.0 
-         112.0 115.0 134.0 137.0 145.0 159.0 164.0 168.0 167.0 165.0 161.0 156.0 
-         92.0 87.0 92.0 102.0 109.0 120.0 134.0 136.0 146.0 161.0 165.0 169.0 
-         168.0 166.0 162.0 158.0 92.0 90.0 92.0 98.0 110.0 121.0 134.0 136.0 
+         146.0 161.0 162.0 166.0 166.0 164.0 159.0 155.0 90.0 87.0 92.0 101.0 
+         105.0 115.0 134.0 137.0 145.0 159.0 164.0 168.0 167.0 165.0 161.0 156.0 
+         92.0 87.0 89.0 95.0 104.0 120.0 134.0 136.0 146.0 161.0 165.0 169.0 
+         168.0 166.0 162.0 158.0 92.0 90.0 89.0 94.0 110.0 121.0 134.0 136.0 
          146.0 162.0 167.0 170.0 169.0 167.0 163.0 159.0 93.0 91.0 93.0 96.0 
          112.0 121.0 136.0 139.0 149.0 159.0 168.0 171.0 170.0 168.0 164.0 161.0 
       </constant>
@@ -2579,18 +2579,18 @@
          99.99 
       </constant>
 <constant cols="5" digits="1" name="pwmidle_cl_initialvalues_duties" rows="5" units="%">
-         16.464 16.464 21.168 23.52 26.264 
-         14.896 14.896 19.6 21.952 24.304 
-         13.328 13.328 18.032 20.384 22.736 
-         12.544 12.544 17.248 19.6 21.952 
-         11.76 11.76 16.464 18.816 21.168 
+         16.464 16.464 17.64 19.992 22.736 
+         14.896 14.896 16.072 18.424 20.776 
+         13.328 13.328 14.504 16.856 19.208 
+         12.544 12.544 13.72 16.072 18.424 
+         11.76 11.76 12.936 15.288 17.64 
       </constant>
 <constant cols="5" digits="0" name="pwmidle_cl_initialvalues_steps" rows="5" units="steps">
-         42.0 42.0 54.0 60.0 67.0 
-         38.0 38.0 50.0 56.0 62.0 
-         34.0 34.0 46.0 52.0 58.0 
-         32.0 32.0 44.0 50.0 56.0 
-         30.0 30.0 42.0 48.0 54.0 
+         42.0 42.0 45.0 51.0 58.0 
+         38.0 38.0 41.0 47.0 53.0 
+         34.0 34.0 37.0 43.0 49.0 
+         32.0 32.0 35.0 41.0 47.0 
+         30.0 30.0 33.0 39.0 45.0 
       </constant>
 <constant cols="1" digits="3" name="mafv" rows="64" units="V">
          0.0 
