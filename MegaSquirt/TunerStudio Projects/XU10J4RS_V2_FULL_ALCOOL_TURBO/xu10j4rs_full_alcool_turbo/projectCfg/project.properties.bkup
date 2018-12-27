@@ -1,7 +1,7 @@
 #Project Attributes.
 #TunerStudio by EFI Analytics, Inc
-#Last Saved on: Fri Dec 21 14:11:27 BRST 2018
-#Fri Dec 21 14:11:27 BRST 2018
+#Last Saved on: Mon Dec 24 19:02:11 BRST 2018
+#Mon Dec 24 19:02:11 BRST 2018
 boostctlSettingsBoost\ Control\ Settings_width=802
 tpswot_curveTPS\ for\ WOT_width=404
 idleAdvance_adaptive_curveIdle\ Adaptive\ Advance\ Timing_height=564
@@ -123,7 +123,7 @@ flexFuelSettingsFuel\ Sensor\ Settings_X=170
 mafdialogMAF\ Settings_width=504
 stagedCombinedStaged\ Settings_Y=36
 stagedCombinedStaged\ Settings_X=22
-baseEngine\ and\ Sequential\ Settings_width=835
+baseEngine\ and\ Sequential\ Settings_width=762
 baudRate=115200
 afrTable1Map3DLambda\ Table\ 1_Y=251
 afrTable1Map3DLambda\ Table\ 1_X=556
@@ -178,7 +178,7 @@ limitsettingsLimit\ settings_Y=369
 CommSettingCom\ Port=COM4
 combinedidleIdle\ Control_height=554
 limitsettingsLimit\ settings_X=758
-baseEngine\ and\ Sequential\ Settings_height=688
+baseEngine\ and\ Sequential\ Settings_height=566
 Triggers.EventTrigger\:Data\ log\:triggered=false
 pwmidle_target_curveClosed\ loop\ idle\ target\ rpms_height=1038
 flexFuelSettingsFuel\ Sensor\ Settings_width=462

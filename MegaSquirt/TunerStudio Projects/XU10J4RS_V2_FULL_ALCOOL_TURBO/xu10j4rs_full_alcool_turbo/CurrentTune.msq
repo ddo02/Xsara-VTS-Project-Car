@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Sat Dec 22 10:13:56 BRST 2018"/>
+<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Thu Dec 27 16:29:40 BRST 2018"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms330N2"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -276,7 +276,7 @@
 <constant name="OverBoostOption">"Spark Cut"</constant>
 <constant name="OverBoostOption_tol">"Off"</constant>
 <constant name="OverBoostOption_flexboost">"Off"</constant>
-<constant digits="1" name="OverBoostKpa" units="kPa">180.0</constant>
+<constant digits="1" name="OverBoostKpa" units="kPa">200.0</constant>
 <constant digits="1" name="OverBoostHyst" units="kPa">10.0</constant>
 <constant name="secondtrigopts">"Off"</constant>
 <constant name="secondtrigopts1">"Off"</constant>
@@ -284,8 +284,8 @@
 <constant name="secondtrigopts3">"Off"</constant>
 <constant digits="1" name="tpsThresh" units="%/s">10.0</constant>
 <constant digits="0" name="mapThresh" units="kPa/s">100.0</constant>
-<constant digits="1" name="taeColdA" units="ms">20.0</constant>
-<constant digits="0" name="taeColdM" units="%">255.0</constant>
+<constant digits="1" name="taeColdA" units="ms">5.0</constant>
+<constant digits="0" name="taeColdM" units="%">150.0</constant>
 <constant digits="1" name="mapsample_angle" units="deg">40.0</constant>
 <constant digits="1" name="taeTime" units="s">0.1</constant>
 <constant digits="0" name="tdePct">90.0</constant>
@@ -726,7 +726,7 @@
 <constant digits="1" name="boost_ctl_sensitivity">200.0</constant>
 <constant name="boost_ctl_settings_freq">"19.5Hz"</constant>
 <constant name="boost_ctl_settings_on">"On"</constant>
-<constant name="boost_ctl_settings_cl">"Open-loop"</constant>
+<constant name="boost_ctl_settings_cl">"Closed-loop"</constant>
 <constant name="boost_ctl_settings_invert_new">"Normal"</constant>
 <constant name="boost_ctl_settings_remote">"Local"</constant>
 <constant name="boost_ctl_settings_tunemode">"Basic"</constant>
@@ -735,7 +735,7 @@
 <constant digits="0" name="boost_ctl_Kp" units="%">100.0</constant>
 <constant digits="0" name="boost_ctl_Ki" units="%">100.0</constant>
 <constant digits="0" name="boost_ctl_Kd" units="%">100.0</constant>
-<constant digits="0" name="boost_ctl_closeduty" units="%">0.0</constant>
+<constant digits="0" name="boost_ctl_closeduty" units="%">30.0</constant>
 <constant digits="0" name="boost_ctl_openduty" units="%">100.0</constant>
 <constant digits="0" name="boost_ctl_ms" units="ms">10.0</constant>
 <constant cols="8" digits="1" name="boost_ctl_load_targets" rows="8" units="%">
@@ -746,7 +746,7 @@
          100.0 104.3 112.9 122.2 132.8 139.0 147.4 156.0 
          100.0 120.9 130.5 136.3 146.1 150.1 155.6 157.8 
          100.0 121.5 132.3 141.9 158.0 158.0 158.0 158.0 
-         100.0 122.2 134.2 143.5 166.0 166.0 166.0 166.0 
+         100.0 122.2 134.2 143.5 166.0 170.0 180.0 180.0 
       </constant>
 <constant cols="1" digits="1" name="boost_ctl_loadtarg_tps_bins" rows="8" units="%">
          0.0 
@@ -1515,6 +1515,7 @@
 <constant digits="1" name="testint" units="ms">199.936</constant>
 <constant digits="0" name="testrpm" units="RPM">600.1920615</constant>
 <constant digits="3" name="testpw" units="ms">1.000332</constant>
+<constant digits="0" name="testinjcnt">100.0</constant>
 <constant name="testsel_inj">"Inj4/D"</constant>
 <constant name="testsel_coil">"CoilA"</constant>
 <constant cols="12" digits="1" name="advanceTable3" rows="12" units="deg">
