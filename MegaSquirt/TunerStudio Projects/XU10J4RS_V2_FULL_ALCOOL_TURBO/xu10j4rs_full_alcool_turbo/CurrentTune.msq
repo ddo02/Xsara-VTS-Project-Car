@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Fri Jan 04 11:34:22 BRST 2019"/>
+<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Sat Jan 05 14:47:14 BRST 2019"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms330N2"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -723,7 +723,7 @@
 <constant name="pwmidle_port">"Local"</constant>
 <constant name="pwmidle_port2">"FIDLE"</constant>
 <constant digits="0" name="pwmidle_dp_decay_factor">0.0</constant>
-<constant digits="1" name="boost_ctl_sensitivity">250.0</constant>
+<constant digits="1" name="boost_ctl_sensitivity">350.0</constant>
 <constant name="boost_ctl_settings_freq">"19.5Hz"</constant>
 <constant name="boost_ctl_settings_on">"On"</constant>
 <constant name="boost_ctl_settings_cl">"Closed-loop"</constant>
@@ -735,7 +735,7 @@
 <constant digits="0" name="boost_ctl_Kp" units="%">100.0</constant>
 <constant digits="0" name="boost_ctl_Ki" units="%">100.0</constant>
 <constant digits="0" name="boost_ctl_Kd" units="%">100.0</constant>
-<constant digits="0" name="boost_ctl_closeduty" units="%">30.0</constant>
+<constant digits="0" name="boost_ctl_closeduty" units="%">0.0</constant>
 <constant digits="0" name="boost_ctl_openduty" units="%">100.0</constant>
 <constant digits="0" name="boost_ctl_ms" units="ms">10.0</constant>
 <constant cols="8" digits="1" name="boost_ctl_load_targets" rows="8" units="%">
@@ -1515,7 +1515,6 @@
 <constant digits="1" name="testint" units="ms">99.968</constant>
 <constant digits="0" name="testrpm" units="RPM">1200.3841229</constant>
 <constant digits="3" name="testpw" units="ms">1.999998</constant>
-<constant digits="0" name="testinjcnt">10.0</constant>
 <constant name="testsel_inj">"Inj1"</constant>
 <constant name="testsel_coil">"CoilA"</constant>
 <constant cols="12" digits="1" name="advanceTable3" rows="12" units="deg">
