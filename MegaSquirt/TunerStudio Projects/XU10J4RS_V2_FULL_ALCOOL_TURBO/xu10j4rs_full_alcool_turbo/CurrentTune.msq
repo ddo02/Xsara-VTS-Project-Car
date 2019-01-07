@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Sun Jan 06 22:01:32 BRST 2019"/>
+<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Mon Jan 07 13:41:26 BRST 2019"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms330N2"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -1515,6 +1515,7 @@
 <constant digits="1" name="testint" units="ms">99.968</constant>
 <constant digits="0" name="testrpm" units="RPM">1200.3841229</constant>
 <constant digits="3" name="testpw" units="ms">1.999998</constant>
+<constant digits="0" name="testinjcnt">10.0</constant>
 <constant name="testsel_inj">"Inj1"</constant>
 <constant name="testsel_coil">"CoilA"</constant>
 <constant cols="12" digits="1" name="advanceTable3" rows="12" units="deg">
@@ -2510,7 +2511,7 @@
 <constant name="ClutchPIDEntry">"Off"</constant>
 <constant digits="0" name="pidrpm_window">1.0</constant>
 <constant name="pwmidle_cl_opts_initvaluetable">"Use initial value table"</constant>
-<constant name="pwmidle_cl_opts_initval_clt">"Use MAT"</constant>
+<constant name="pwmidle_cl_opts_initval_clt">"Use CLT"</constant>
 <constant cols="1" digits="1" name="idleadvance_curve" rows="5" units="deg">
          11.0 
          6.0 
@@ -2578,16 +2579,16 @@
          99.99 
       </constant>
 <constant cols="5" digits="1" name="pwmidle_cl_initialvalues_duties" rows="5" units="%">
-         3.528 4.312 4.704 4.704 4.704 
-         3.528 4.312 4.704 4.704 4.704 
-         3.528 4.312 4.704 4.704 4.704 
+         7.056 7.84 8.232 8.232 8.232 
+         5.88 6.664 7.056 7.056 7.056 
+         4.704 5.488 5.88 5.88 5.88 
          3.528 4.312 4.704 4.704 4.704 
          3.528 4.312 4.704 4.704 4.704 
       </constant>
 <constant cols="5" digits="0" name="pwmidle_cl_initialvalues_steps" rows="5" units="steps">
-         9.0 11.0 12.0 12.0 12.0 
-         9.0 11.0 12.0 12.0 12.0 
-         9.0 11.0 12.0 12.0 12.0 
+         18.0 20.0 21.0 21.0 21.0 
+         15.0 17.0 18.0 18.0 18.0 
+         12.0 14.0 15.0 15.0 15.0 
          9.0 11.0 12.0 12.0 12.0 
          9.0 11.0 12.0 12.0 12.0 
       </constant>
