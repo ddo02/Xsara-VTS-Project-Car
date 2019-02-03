@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Sun Feb 03 14:42:38 BRST 2019"/>
+<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Sun Feb 03 15:42:52 BRST 2019"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms330N2"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -1329,7 +1329,7 @@
 <constant digits="0" name="launch_sft_zone" units="RPM">200.0</constant>
 <constant digits="2" name="launch_sft_deg" units="deg">0.0</constant>
 <constant digits="0" name="launch_hrd_lim" units="RPM">4000.0</constant>
-<constant digits="0" name="launch_tps" units="%">10.0</constant>
+<constant digits="0" name="launch_tps" units="%">90.0</constant>
 <constant name="launchlimopt">"Spark Cut"</constant>
 <constant digits="0" name="flats_arm" units="RPM">5000.0</constant>
 <constant digits="2" name="flats_deg" units="deg">0.0</constant>
@@ -1515,7 +1515,6 @@
 <constant digits="1" name="testint" units="ms">99.968</constant>
 <constant digits="0" name="testrpm" units="RPM">1200.3841229</constant>
 <constant digits="3" name="testpw" units="ms">1.999998</constant>
-<constant digits="0" name="testinjcnt">10.0</constant>
 <constant name="testsel_inj">"Inj1"</constant>
 <constant name="testsel_coil">"CoilA"</constant>
 <constant cols="12" digits="1" name="advanceTable3" rows="12" units="deg">
