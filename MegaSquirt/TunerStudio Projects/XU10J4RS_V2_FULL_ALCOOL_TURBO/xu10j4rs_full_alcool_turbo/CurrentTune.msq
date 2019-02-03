@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Sun Jan 27 12:14:18 BRST 2019"/>
+<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Sun Feb 03 09:43:27 BRST 2019"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms330N2"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -124,14 +124,14 @@
          0.863981 0.857178 0.843572 0.836769 0.829966 0.823163 0.823163 0.809557 0.809557 0.809557 0.809557 0.802754 
       </constant>
 <constant cols="1" digits="0" name="wueBins" rows="10" units="%">
-         107.0 
+         115.0 
+         115.0 
+         114.0 
+         112.0 
+         110.0 
+         108.0 
          106.0 
-         105.0 
-         105.0 
          104.0 
-         102.0 
-         102.0 
-         102.0 
          102.0 
          100.0 
       </constant>
@@ -284,7 +284,7 @@
 <constant name="secondtrigopts3">"Off"</constant>
 <constant digits="1" name="tpsThresh" units="%/s">20.0</constant>
 <constant digits="0" name="mapThresh" units="kPa/s">100.0</constant>
-<constant digits="1" name="taeColdA" units="ms">5.0</constant>
+<constant digits="1" name="taeColdA" units="ms">0.0</constant>
 <constant digits="0" name="taeColdM" units="%">150.0</constant>
 <constant digits="1" name="mapsample_angle" units="deg">40.0</constant>
 <constant digits="1" name="taeTime" units="s">0.1</constant>
@@ -306,7 +306,7 @@
 <constant digits="1" name="fastIdleT" units="°C">59.994</constant>
 <constant digits="1" name="egoTemp" units="°C">49.995</constant>
 <constant digits="0" name="egoRPM" units="RPM">700.0</constant>
-<constant digits="2" name="reqFuel" units="ms">5.2</constant>
+<constant digits="2" name="reqFuel" units="ms">5.0</constant>
 <constant digits="0" name="divider">2.0</constant>
 <constant name="alternate">"Alternating"</constant>
 <constant name="altcrank">"Every event"</constant>
@@ -316,11 +316,11 @@
 <constant name="twoStroke">"Four-stroke"</constant>
 <constant name="nInjectors">"4"</constant>
 <constant digits="0" name="OddFireang">90.0</constant>
-<constant digits="0" name="rpmLF">50.0</constant>
+<constant digits="0" name="rpmLF">60.0</constant>
 <constant digits="0" name="mapLF">100.0</constant>
-<constant digits="0" name="tpsLF">80.0</constant>
+<constant digits="0" name="tpsLF">70.0</constant>
 <constant digits="0" name="egoLF">80.0</constant>
-<constant digits="0" name="adcLF">50.0</constant>
+<constant digits="0" name="adcLF">60.0</constant>
 <constant digits="0" name="mafLF">50.0</constant>
 <constant name="dualTable">"Single Table"</constant>
 <constant name="algorithm">"Speed Density"</constant>
@@ -368,7 +368,7 @@
 <constant name="port2_type">"Digital (8 signals)"</constant>
 <constant name="port3_type">"Digital (8 signals)"</constant>
 <constant name="port_generic">"Disabled"</constant>
-<constant digits="0" name="enginesize" units="cc">2000.0</constant>
+<constant digits="0" name="enginesize" units="cc">1999.0</constant>
 <constant digits="0" name="remotePWMfreq" units="MHz">24.0</constant>
 <constant digits="0" name="remotePWMprescale">128.0</constant>
 <constant name="can_bcast1_on">"Off"</constant>
@@ -1334,7 +1334,7 @@
 <constant digits="0" name="flats_arm" units="RPM">5000.0</constant>
 <constant digits="2" name="flats_deg" units="deg">0.0</constant>
 <constant digits="0" name="flats_hrd" units="RPM">5500.0</constant>
-<constant digits="0" name="staged_pri_size" units="cc">1050.0</constant>
+<constant digits="0" name="staged_pri_size" units="cc">1092.0</constant>
 <constant digits="0" name="staged_sec_size" units="cc">263.0</constant>
 <constant name="staged_first_param">"Off"</constant>
 <constant name="staged_second_param">"Off"</constant>
@@ -1515,7 +1515,6 @@
 <constant digits="1" name="testint" units="ms">99.968</constant>
 <constant digits="0" name="testrpm" units="RPM">1200.3841229</constant>
 <constant digits="3" name="testpw" units="ms">1.999998</constant>
-<constant digits="0" name="testinjcnt">10.0</constant>
 <constant name="testsel_inj">"Inj1"</constant>
 <constant name="testsel_coil">"CoilA"</constant>
 <constant cols="12" digits="1" name="advanceTable3" rows="12" units="deg">
