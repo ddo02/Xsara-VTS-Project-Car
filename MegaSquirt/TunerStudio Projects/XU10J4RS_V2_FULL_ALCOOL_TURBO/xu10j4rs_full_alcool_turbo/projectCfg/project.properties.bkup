@@ -1,8 +1,8 @@
 #Project Attributes.
 #TunerStudio by EFI Analytics, Inc
-#Last Saved on: Sun Feb 03 14:42:44 BRST 2019
-#Sun Feb 03 14:42:44 BRST 2019
-boostctlSettingsBoost\ Control\ Settings_width=798
+#Last Saved on: Sat Feb 16 11:27:30 BRST 2019
+#Sat Feb 16 11:27:30 BRST 2019
+boostctlSettingsBoost\ Control\ Settings_width=875
 tpswot_curveTPS\ for\ WOT_width=404
 idleAdvance_adaptive_curveIdle\ Adaptive\ Advance\ Timing_height=1038
 egoControlEGO\ Control_width=408
@@ -266,10 +266,10 @@ refTable_002_txtX1=0.75
 tsSupplementalFieldsVehicle\ Specifications_Y=318
 tsSupplementalFieldsVehicle\ Specifications_X=623
 wueAnalyzer_warmup_curve_Auto\ Scale\ X\ Axis\ Maximum=false
-boostctlSettingsBoost\ Control\ Settings_height=554
+boostctlSettingsBoost\ Control\ Settings_height=691
 VeAnalyzePanel_veTable1Tbl_maxPercentChange=1.0
 userDash1.DashName=DDO
-boostctlTargsBoost\ Control\ Targets_width=1932
+boostctlTargsBoost\ Control\ Targets_width=1280
 coldAdvanceCold\ Ignition\ Advance\ Offset_height=483
 outputtestOutput\ Test\ Mode\ -\ Inj/Spk_Y=0
 veTable2TblVE\ Table\ 2_Y=0
@@ -320,13 +320,13 @@ generalsettings2General\ settings_Y=237
 WueAnalyzePanel_wueAnalyzer_warmup_curve_applyPeriod=Manually
 primingPWPriming\ Pulsewidth_height=602
 generalsettings2General\ settings_X=2324
-boostctlSettingsBoost\ Control\ Settings_Y=175
-boostctlSettingsBoost\ Control\ Settings_X=2338
-boostctlTargsBoost\ Control\ Targets_height=1038
+boostctlSettingsBoost\ Control\ Settings_Y=8
+boostctlSettingsBoost\ Control\ Settings_X=286
+boostctlTargsBoost\ Control\ Targets_height=738
 combinedidleIdle\ Control_width=755
-boostctlDutysBoost\ Control\ Duty_Y=213
+boostctlDutysBoost\ Control\ Duty_Y=113
 tachoTachometer\ output_width=404
-boostctlDutysBoost\ Control\ Duty_X=2631
+boostctlDutysBoost\ Control\ Duty_X=532
 tableswTable\ Switching_Y=96
 tableswTable\ Switching_X=718
 accelsettingsAccel\ enrich\ settings_height=207
@@ -408,7 +408,7 @@ mafdialogMAF\ Settings_Y=372
 boostctlTargsBoost\ Control\ Targets_Y=0
 mafdialogMAF\ Settings_X=710
 afrTable1Map3DLambda\ Table\ 1_height=538
-boostctlTargsBoost\ Control\ Targets_X=1914
+boostctlTargsBoost\ Control\ Targets_X=0
 dashBoardFile=/dashboard//dashboard.dash
 ecuConfigFile=mainController.ini
 tsSupplementalFieldsVehicle\ Specifications_height=404
