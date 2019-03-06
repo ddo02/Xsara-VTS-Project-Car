@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Tue Mar 05 15:02:52 BRT 2019"/>
+<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Wed Mar 06 16:10:12 BRT 2019"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms330N2"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -96,11 +96,11 @@
 <constant digits="1" name="TpsBypassCLTRevlim" units="TPS %">90.0</constant>
 <constant digits="0" name="RevLimNormal2_hyst" units="RPM">200.0</constant>
 <constant cols="12" digits="3" name="afrTable1" rows="12" units="Lambda">
-         0.972829 0.972829 0.972829 1.054465 1.074874 1.074874 1.054465 0.966026 0.95242 0.95242 0.95242 0.95242 
-         0.972829 0.972829 0.972829 1.054465 1.074874 1.074874 1.054465 0.966026 0.95242 0.95242 0.95242 0.95242 
-         0.972829 0.972829 0.972829 1.054465 1.074874 1.074874 1.054465 0.966026 0.95242 0.95242 0.95242 0.95242 
-         0.972829 0.972829 0.972829 1.054465 1.074874 1.074874 1.054465 0.966026 0.95242 0.95242 0.95242 0.95242 
-         0.972829 0.972829 0.972829 1.054465 1.074874 1.074874 1.054465 0.966026 0.95242 0.95242 0.95242 0.95242 
+         1.000041 1.000041 1.000041 1.054465 1.074874 1.074874 1.054465 0.966026 0.95242 0.95242 0.95242 0.95242 
+         1.000041 1.000041 1.000041 1.054465 1.074874 1.074874 1.054465 0.966026 0.95242 0.95242 0.95242 0.95242 
+         1.000041 1.000041 1.000041 1.054465 1.074874 1.074874 1.054465 0.966026 0.95242 0.95242 0.95242 0.95242 
+         1.000041 1.000041 1.000041 1.054465 1.074874 1.074874 1.054465 0.966026 0.95242 0.95242 0.95242 0.95242 
+         1.000041 1.000041 1.000041 1.054465 1.074874 1.074874 1.054465 0.966026 0.95242 0.95242 0.95242 0.95242 
          0.932011 0.932011 0.932011 1.000041 1.074874 1.074874 1.054465 0.966026 0.95242 0.95242 0.95242 0.95242 
          0.911602 0.911602 0.904799 0.904799 0.891193 0.891193 0.891193 0.891193 0.891193 0.891193 0.88439 0.877587 
          0.911602 0.904799 0.904799 0.897996 0.891193 0.877587 0.863981 0.850375 0.843572 0.836769 0.836769 0.829966 
@@ -295,7 +295,7 @@
 <constant name="baroCorr">"None"</constant>
 <constant name="egoType">"Single Wide Band"</constant>
 <constant name="EgoOption_dual">"Off"</constant>
-<constant digits="0" name="egoCount">8.0</constant>
+<constant digits="0" name="egoCount">4.0</constant>
 <constant digits="1" name="egoDelta" units="%">1.0</constant>
 <constant digits="0" name="oldegoLimit" units="%">15.0</constant>
 <constant digits="3" name="AFRTarget" units="Lambda">0.897996</constant>
@@ -305,7 +305,7 @@
 <constant name="mapsample_opt2">"Use event average"</constant>
 <constant digits="1" name="fastIdleT" units="°C">59.994</constant>
 <constant digits="1" name="egoTemp" units="°C">49.995</constant>
-<constant digits="0" name="egoRPM" units="RPM">1200.0</constant>
+<constant digits="0" name="egoRPM" units="RPM">800.0</constant>
 <constant digits="2" name="reqFuel" units="ms">5.0</constant>
 <constant digits="0" name="divider">2.0</constant>
 <constant name="alternate">"Alternating"</constant>
@@ -476,9 +476,9 @@
 <constant digits="1" name="primedelay" units="s">0.0</constant>
 <constant digits="1" name="aeEndPW" units="ms">0.0</constant>
 <constant name="egoAlgorithm">"PID"</constant>
-<constant digits="0" name="egoKP" units="%">40.0</constant>
-<constant digits="0" name="egoKI" units="%">90.0</constant>
-<constant digits="0" name="egoKD" units="%">90.0</constant>
+<constant digits="0" name="egoKP" units="%">60.0</constant>
+<constant digits="0" name="egoKI" units="%">40.0</constant>
+<constant digits="0" name="egoKD" units="%">50.0</constant>
 <constant digits="0" name="egoKdelay1" units="ms">10.0</constant>
 <constant digits="0" name="egoKdelay2" units="revs">4000.0</constant>
 <constant name="flexFuel">"Disabled"</constant>
