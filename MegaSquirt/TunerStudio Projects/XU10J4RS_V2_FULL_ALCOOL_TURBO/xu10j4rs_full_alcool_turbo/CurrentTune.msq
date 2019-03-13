@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Sun Mar 10 16:02:12 BRT 2019"/>
+<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Tue Mar 12 21:10:09 BRT 2019"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms330N2"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -79,7 +79,7 @@
          88.0 
       </constant>
 <constant name="PredOpt">"1st High RPM, 2nd Low"</constant>
-<constant digits="0" name="crankingRPM" units="RPM">600.0</constant>
+<constant digits="0" name="crankingRPM" units="RPM">400.0</constant>
 <constant cols="1" digits="1" name="cold_adv_table" rows="10" units="deg">
          9.0 
          8.0 
@@ -124,22 +124,22 @@
          0.863981 0.857178 0.843572 0.836769 0.829966 0.823163 0.823163 0.809557 0.809557 0.809557 0.809557 0.802754 
       </constant>
 <constant cols="1" digits="0" name="wueBins" rows="10" units="%">
-         115.0 
-         115.0 
+         117.0 
          114.0 
-         112.0 
-         110.0 
-         108.0 
-         106.0 
+         111.0 
+         109.0 
+         107.0 
+         105.0 
          104.0 
          102.0 
+         101.0 
          100.0 
       </constant>
 <constant cols="1" digits="1" name="taeBins" rows="4" units="ms">
          1.0 
          2.0 
          3.0 
-         5.0 
+         6.0 
       </constant>
 <constant cols="1" digits="1" name="maeBins" rows="4" units="ms">
          0.0 
@@ -284,7 +284,7 @@
 <constant name="secondtrigopts3">"Off"</constant>
 <constant digits="1" name="tpsThresh" units="%/s">20.0</constant>
 <constant digits="0" name="mapThresh" units="kPa/s">100.0</constant>
-<constant digits="1" name="taeColdA" units="ms">0.0</constant>
+<constant digits="1" name="taeColdA" units="ms">2.0</constant>
 <constant digits="0" name="taeColdM" units="%">200.0</constant>
 <constant digits="1" name="mapsample_angle" units="deg">40.0</constant>
 <constant digits="1" name="taeTime" units="s">0.1</constant>
@@ -293,7 +293,7 @@
 <constant digits="1" name="TPSOXLimit" units="%">110.0</constant>
 <constant digits="0" name="tpsProportion" units="%">100.0</constant>
 <constant name="baroCorr">"None"</constant>
-<constant name="egoType">"Disabled"</constant>
+<constant name="egoType">"Single Wide Band"</constant>
 <constant name="EgoOption_dual">"Off"</constant>
 <constant digits="0" name="egoCount">4.0</constant>
 <constant digits="1" name="egoDelta" units="%">1.0</constant>
@@ -477,7 +477,7 @@
 <constant digits="1" name="aeEndPW" units="ms">0.0</constant>
 <constant name="egoAlgorithm">"PID"</constant>
 <constant digits="0" name="egoKP" units="%">60.0</constant>
-<constant digits="0" name="egoKI" units="%">40.0</constant>
+<constant digits="0" name="egoKI" units="%">50.0</constant>
 <constant digits="0" name="egoKD" units="%">50.0</constant>
 <constant digits="0" name="egoKdelay1" units="ms">10.0</constant>
 <constant digits="0" name="egoKdelay2" units="revs">4000.0</constant>
@@ -711,7 +711,7 @@
 <constant digits="1" name="pwmidle_dp_adder" units="%">1.176</constant>
 <constant digits="0" name="pwmidle_dp_adder_steps" units="steps">3.0</constant>
 <constant digits="0" name="pwmidle_rpmdot_threshold" units="rpm/sec">1000.0</constant>
-<constant digits="1" name="pwmidle_decelload_threshold" units="%">35.0</constant>
+<constant digits="1" name="pwmidle_decelload_threshold" units="%">32.0</constant>
 <constant digits="1" name="pwmidle_Kp_new" units="%">100.0</constant>
 <constant digits="1" name="pwmidle_Ki_new" units="%">70.0</constant>
 <constant digits="1" name="pwmidle_Kd_new" units="%">40.0</constant>
@@ -800,15 +800,15 @@
       </constant>
 <constant cols="1" digits="1" name="pwmidle_crank_dutyorsteps_duty" rows="4" units="%">
          23.52 
-         19.6 
-         15.68 
-         7.84 
+         20.384 
+         17.64 
+         5.88 
       </constant>
 <constant cols="1" digits="0" name="pwmidle_crank_dutyorsteps_steps" rows="4" units="steps">
          60.0 
-         50.0 
-         40.0 
-         20.0 
+         52.0 
+         45.0 
+         15.0 
       </constant>
 <constant cols="1" digits="1" name="pwmidle_crank_clt_temps" rows="4" units="°C">
          0.0 
@@ -853,14 +853,14 @@
          0.0 
       </constant>
 <constant cols="1" digits="0" name="crankPctTable" rows="10" units="%">
-         530.0 
-         530.0 
-         530.0 
-         489.0 
-         400.0 
-         262.0 
-         160.0 
-         107.0 
+         782.0 
+         769.0 
+         748.0 
+         689.0 
+         600.0 
+         272.0 
+         165.0 
+         122.0 
          85.0 
          70.0 
       </constant>
@@ -1113,7 +1113,7 @@
 <constant name="f5_0_tsf_opt">"kPa"</constant>
 <constant name="f5_0_tss_opt">"Hardware"</constant>
 <constant name="f5_0_tss">"Off"</constant>
-<constant digits="0" name="pwmidlecranktaper" units="s">10.0</constant>
+<constant digits="0" name="pwmidlecranktaper" units="s">100.0</constant>
 <constant name="pwmidleset_inv">"Normal, 0%=off"</constant>
 <constant name="pwmidleset_koeo">"Off"</constant>
 <constant digits="0" name="fc_rpm" units="rpm">1400.0</constant>
@@ -1515,6 +1515,7 @@
 <constant digits="1" name="testint" units="ms">99.968</constant>
 <constant digits="0" name="testrpm" units="RPM">1200.3841229</constant>
 <constant digits="3" name="testpw" units="ms">1.999998</constant>
+<constant digits="0" name="testinjcnt">10.0</constant>
 <constant name="testsel_inj">"Inj1"</constant>
 <constant name="testsel_coil">"CoilA"</constant>
 <constant cols="12" digits="1" name="advanceTable3" rows="12" units="deg">
@@ -2578,18 +2579,18 @@
          99.99 
       </constant>
 <constant cols="5" digits="1" name="pwmidle_cl_initialvalues_duties" rows="5" units="%">
-         7.84 8.624 10.976 14.112 16.072 
-         6.664 7.84 9.8 12.936 14.896 
-         5.88 7.056 8.624 11.76 13.72 
-         5.488 6.664 7.448 10.584 12.544 
-         5.096 6.272 7.056 9.8 11.76 
+         10.192 10.976 12.544 13.328 14.112 
+         9.8 10.192 11.76 12.544 12.936 
+         9.408 9.408 10.976 11.368 11.76 
+         6.272 7.448 8.232 9.8 10.584 
+         5.096 6.272 7.056 8.232 9.8 
       </constant>
 <constant cols="5" digits="0" name="pwmidle_cl_initialvalues_steps" rows="5" units="steps">
-         20.0 22.0 28.0 36.0 41.0 
-         17.0 20.0 25.0 33.0 38.0 
-         15.0 18.0 22.0 30.0 35.0 
-         14.0 17.0 19.0 27.0 32.0 
-         13.0 16.0 18.0 25.0 30.0 
+         26.0 28.0 32.0 34.0 36.0 
+         25.0 26.0 30.0 32.0 33.0 
+         24.0 24.0 28.0 29.0 30.0 
+         16.0 19.0 21.0 25.0 27.0 
+         13.0 16.0 18.0 21.0 25.0 
       </constant>
 <constant cols="1" digits="3" name="mafv" rows="64" units="V">
          0.0 
