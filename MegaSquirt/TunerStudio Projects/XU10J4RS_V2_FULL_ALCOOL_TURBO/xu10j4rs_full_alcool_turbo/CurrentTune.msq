@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Sat Mar 16 17:22:27 BRT 2019"/>
+<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Sat Mar 16 18:26:51 BRT 2019"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms330N2"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -800,13 +800,13 @@
       </constant>
 <constant cols="1" digits="1" name="pwmidle_crank_dutyorsteps_duty" rows="4" units="%">
          23.52 
-         20.384 
+         19.6 
          17.64 
          5.88 
       </constant>
 <constant cols="1" digits="0" name="pwmidle_crank_dutyorsteps_steps" rows="4" units="steps">
          60.0 
-         52.0 
+         50.0 
          45.0 
          15.0 
       </constant>
@@ -1515,6 +1515,7 @@
 <constant digits="1" name="testint" units="ms">99.968</constant>
 <constant digits="0" name="testrpm" units="RPM">1200.3841229</constant>
 <constant digits="3" name="testpw" units="ms">1.999998</constant>
+<constant digits="0" name="testinjcnt">10.0</constant>
 <constant name="testsel_inj">"Inj1"</constant>
 <constant name="testsel_coil">"CoilA"</constant>
 <constant cols="12" digits="1" name="advanceTable3" rows="12" units="deg">
@@ -2578,16 +2579,16 @@
          99.99 
       </constant>
 <constant cols="5" digits="1" name="pwmidle_cl_initialvalues_duties" rows="5" units="%">
-         10.192 10.976 12.544 13.328 14.112 
-         9.8 10.192 11.76 12.544 12.936 
-         8.624 9.408 10.584 11.368 11.76 
+         8.624 9.408 10.976 11.76 12.544 
+         8.232 8.624 10.192 10.976 11.368 
+         7.056 7.84 9.016 10.192 10.976 
          6.272 7.448 8.232 9.8 10.584 
          5.096 6.272 7.056 8.232 9.8 
       </constant>
 <constant cols="5" digits="0" name="pwmidle_cl_initialvalues_steps" rows="5" units="steps">
-         26.0 28.0 32.0 34.0 36.0 
-         25.0 26.0 30.0 32.0 33.0 
-         22.0 24.0 27.0 29.0 30.0 
+         22.0 24.0 28.0 30.0 32.0 
+         21.0 22.0 26.0 28.0 29.0 
+         18.0 20.0 23.0 26.0 28.0 
          16.0 19.0 21.0 25.0 27.0 
          13.0 16.0 18.0 21.0 25.0 
       </constant>
