@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Sun Mar 17 21:54:59 BRT 2019"/>
+<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Thu Mar 21 19:48:07 BRT 2019"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms330N2"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -1515,6 +1515,7 @@
 <constant digits="1" name="testint" units="ms">99.968</constant>
 <constant digits="0" name="testrpm" units="RPM">1200.3841229</constant>
 <constant digits="3" name="testpw" units="ms">1.999998</constant>
+<constant digits="0" name="testinjcnt">10.0</constant>
 <constant name="testsel_inj">"Inj1"</constant>
 <constant name="testsel_coil">"CoilA"</constant>
 <constant cols="12" digits="1" name="advanceTable3" rows="12" units="deg">
@@ -1590,9 +1591,9 @@
 <constant name="idleadvance_cl_cond">"Manual"</constant>
 <constant digits="1" name="idleadvance_tps" units="%">0.2</constant>
 <constant digits="0" name="idleadvance_rpm" units="rpm">1300.0</constant>
-<constant digits="0" name="idleadvance_load" units="%">32.0</constant>
+<constant digits="0" name="idleadvance_load" units="%">30.0</constant>
 <constant digits="1" name="idleadvance_clt" units="°C">19.998</constant>
-<constant digits="0" name="idleadvance_delay" units="sec">1.0</constant>
+<constant digits="0" name="idleadvance_delay" units="sec">0.0</constant>
 <constant name="seq_inj">"Sequential/Semi-sequential"</constant>
 <constant name="extrainj">"Additional drivers"</constant>
 <constant name="injdualvalue">"Single value"</constant>
@@ -2579,17 +2580,17 @@
       </constant>
 <constant cols="5" digits="1" name="pwmidle_cl_initialvalues_duties" rows="5" units="%">
          8.624 9.408 10.976 11.76 12.544 
-         8.232 8.624 10.192 10.976 11.368 
-         7.056 7.84 9.016 10.192 10.976 
-         6.272 7.448 8.232 9.8 10.584 
-         5.096 6.272 7.056 8.232 9.8 
+         6.664 7.056 8.624 9.408 9.8 
+         4.704 5.488 6.664 7.84 8.624 
+         3.136 4.312 5.096 6.664 7.448 
+         1.96 3.136 3.92 5.096 6.664 
       </constant>
 <constant cols="5" digits="0" name="pwmidle_cl_initialvalues_steps" rows="5" units="steps">
          22.0 24.0 28.0 30.0 32.0 
-         21.0 22.0 26.0 28.0 29.0 
-         18.0 20.0 23.0 26.0 28.0 
-         16.0 19.0 21.0 25.0 27.0 
-         13.0 16.0 18.0 21.0 25.0 
+         17.0 18.0 22.0 24.0 25.0 
+         12.0 14.0 17.0 20.0 22.0 
+         8.0 11.0 13.0 17.0 19.0 
+         5.0 8.0 10.0 13.0 17.0 
       </constant>
 <constant cols="1" digits="3" name="mafv" rows="64" units="V">
          0.0 
