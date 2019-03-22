@@ -1,10 +1,10 @@
 #Project Attributes.
 #TunerStudio by EFI Analytics, Inc
-#Last Saved on: Sun Mar 17 21:55:04 BRT 2019
-#Sun Mar 17 21:55:04 BRT 2019
+#Last Saved on: Fri Mar 22 19:23:25 BRT 2019
+#Fri Mar 22 19:23:25 BRT 2019
 boostctlSettingsBoost\ Control\ Settings_width=875
 tpswot_curveTPS\ for\ WOT_width=404
-idleAdvance_adaptive_curveIdle\ Adaptive\ Advance\ Timing_height=1038
+idleAdvance_adaptive_curveIdle\ Adaptive\ Advance\ Timing_height=738
 egoControlEGO\ Control_width=404
 Triggers.ActiveTriggers=Stop Data log|Data log|
 battcalibBattery\ Voltage\ Calibration_height=295
@@ -130,7 +130,7 @@ baseEngine\ and\ Sequential\ Settings_width=835
 baudRate=115200
 afrTable1Map3DLambda\ Table\ 1_Y=251
 afrTable1Map3DLambda\ Table\ 1_X=556
-idleAdvance_adaptive_curveIdle\ Adaptive\ Advance\ Timing_width=1932
+idleAdvance_adaptive_curveIdle\ Adaptive\ Advance\ Timing_width=1280
 combinedCLidleClosed-loop\ Idle\ Control_Y=48
 combinedCLidleClosed-loop\ Idle\ Control_X=175
 manifoldTempCorr2MAT\ air\ density\ correction_Y=0
@@ -347,7 +347,7 @@ tableswTable\ Switching_width=446
 veTable3TblVE\ Table\ 3_X=1920
 pwmidle_cl_initialvaluesClosed-loop\ Idle\ Initial\ Values_width=1280
 idleAdvance_adaptive_curveIdle\ Adaptive\ Advance\ Timing_Y=0
-idleAdvance_adaptive_curveIdle\ Adaptive\ Advance\ Timing_X=1914
+idleAdvance_adaptive_curveIdle\ Adaptive\ Advance\ Timing_X=0
 canparamsCAN\ Parameters_Y=293
 canparamsCAN\ Parameters_X=570
 AEtime_settingsTime-based\ Accel\ Enrichment_Y=0

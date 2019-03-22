@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Thu Mar 21 19:48:07 BRT 2019"/>
+<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Fri Mar 22 19:55:34 BRT 2019"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms330N2"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -718,7 +718,7 @@
 <constant name="pwmidle_freq">"92Hz"</constant>
 <constant name="pwmidle_freq_cl_opts_display_pid">"Advanced"</constant>
 <constant digits="0" name="pwmidle_max_rpm_new">2014.0</constant>
-<constant digits="0" name="pwmidle_targ_ramptime" units="sec">5.0</constant>
+<constant digits="0" name="pwmidle_targ_ramptime" units="sec">2.0</constant>
 <constant digits="0" name="pwmidle_rpmdot_disablepid">200.0</constant>
 <constant name="pwmidle_port">"Local"</constant>
 <constant name="pwmidle_port2">"FIDLE"</constant>
@@ -1120,7 +1120,7 @@
 <constant digits="1" name="fc_kpa" units="kPa">50.0</constant>
 <constant digits="1" name="fc_tps" units="%">0.5</constant>
 <constant digits="1" name="fc_clt" units="°C">39.996</constant>
-<constant digits="1" name="fc_delay" units="s">1.0</constant>
+<constant digits="1" name="fc_delay" units="s">2.0</constant>
 <constant name="tacho_opt80">"On"</constant>
 <constant name="tacho_opt40">"Normal"</constant>
 <constant name="tacho_opt3f">"AD07/JS4"</constant>
@@ -2565,32 +2565,32 @@
          0.0 
       </constant>
 <constant cols="1" digits="0" name="pwmidle_cl_initialvalue_rpms" rows="5" units="rpm">
-         800.0 
          900.0 
          1000.0 
          1100.0 
          1200.0 
+         1400.0 
       </constant>
 <constant cols="1" digits="1" name="pwmidle_cl_initialvalue_matorclt" rows="5" units="°C">
          0.0 
          24.9975 
          49.995 
-         74.9925 
+         79.992 
          99.99 
       </constant>
 <constant cols="5" digits="1" name="pwmidle_cl_initialvalues_duties" rows="5" units="%">
-         8.624 9.408 10.976 11.76 12.544 
-         6.664 7.056 8.624 9.408 9.8 
-         4.704 5.488 6.664 7.84 8.624 
-         3.136 4.312 5.096 6.664 7.448 
-         1.96 3.136 3.92 5.096 6.664 
+         9.408 10.976 11.76 12.544 14.504 
+         8.232 9.8 10.584 10.976 12.936 
+         7.84 9.016 10.192 10.976 12.936 
+         6.664 7.448 9.016 9.8 11.76 
+         6.664 7.448 9.016 9.8 11.76 
       </constant>
 <constant cols="5" digits="0" name="pwmidle_cl_initialvalues_steps" rows="5" units="steps">
-         22.0 24.0 28.0 30.0 32.0 
-         17.0 18.0 22.0 24.0 25.0 
-         12.0 14.0 17.0 20.0 22.0 
-         8.0 11.0 13.0 17.0 19.0 
-         5.0 8.0 10.0 13.0 17.0 
+         24.0 28.0 30.0 32.0 37.0 
+         21.0 25.0 27.0 28.0 33.0 
+         20.0 23.0 26.0 28.0 33.0 
+         17.0 19.0 23.0 25.0 30.0 
+         17.0 19.0 23.0 25.0 30.0 
       </constant>
 <constant cols="1" digits="3" name="mafv" rows="64" units="V">
          0.0 
