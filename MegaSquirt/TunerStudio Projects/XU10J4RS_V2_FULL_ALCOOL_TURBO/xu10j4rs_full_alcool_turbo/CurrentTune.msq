@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Fri Mar 22 19:55:34 BRT 2019"/>
+<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Sat May 04 13:36:16 BRT 2019"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms330N2"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -148,16 +148,16 @@
          0.0 
       </constant>
 <constant cols="1" digits="0" name="iacstepTable" rows="10" units="steps">
-         98.0 
-         89.0 
-         80.0 
-         72.0 
-         65.0 
-         57.0 
-         50.0 
-         47.0 
-         43.0 
-         40.0 
+         71.0 
+         62.0 
+         53.0 
+         45.0 
+         38.0 
+         30.0 
+         23.0 
+         20.0 
+         16.0 
+         13.0 
       </constant>
 <constant cols="1" digits="0" name="arpm_table1" rows="12" units="RPM">
          800.0 
@@ -272,7 +272,7 @@
 <constant digits="0" name="IACcrankxt" units="sec">5.0</constant>
 <constant name="IACcurlim">"Always on"</constant>
 <constant digits="3" name="injOpen" units="ms">1.157</constant>
-<constant digits="3" name="battFac" units="ms/v">0.1000002</constant>
+<constant digits="3" name="battFac" units="ms/v">0.1500003</constant>
 <constant name="OverBoostOption">"Spark Cut"</constant>
 <constant name="OverBoostOption_tol">"Off"</constant>
 <constant name="OverBoostOption_flexboost">"Off"</constant>
@@ -306,7 +306,7 @@
 <constant digits="1" name="fastIdleT" units="°C">59.994</constant>
 <constant digits="1" name="egoTemp" units="°C">49.995</constant>
 <constant digits="0" name="egoRPM" units="RPM">800.0</constant>
-<constant digits="2" name="reqFuel" units="ms">5.0</constant>
+<constant digits="2" name="reqFuel" units="ms">5.2</constant>
 <constant digits="0" name="divider">2.0</constant>
 <constant name="alternate">"Alternating"</constant>
 <constant name="altcrank">"Every event"</constant>
@@ -698,7 +698,7 @@
          69.993 
          79.992 
       </constant>
-<constant digits="0" name="pwmidle_ms" units="ms">200.0</constant>
+<constant digits="0" name="pwmidle_ms" units="ms">100.0</constant>
 <constant digits="0" name="pwmidle_close_delay" units="sec">3.0</constant>
 <constant digits="1" name="pwmidle_open_duty" units="%">58.8</constant>
 <constant digits="0" name="pwmidle_open_steps" units="steps">150.0</constant>
@@ -718,7 +718,7 @@
 <constant name="pwmidle_freq">"92Hz"</constant>
 <constant name="pwmidle_freq_cl_opts_display_pid">"Advanced"</constant>
 <constant digits="0" name="pwmidle_max_rpm_new">2014.0</constant>
-<constant digits="0" name="pwmidle_targ_ramptime" units="sec">2.0</constant>
+<constant digits="0" name="pwmidle_targ_ramptime" units="sec">4.0</constant>
 <constant digits="0" name="pwmidle_rpmdot_disablepid">200.0</constant>
 <constant name="pwmidle_port">"Local"</constant>
 <constant name="pwmidle_port2">"FIDLE"</constant>
@@ -841,11 +841,11 @@
          100.0 
       </constant>
 <constant cols="1" digits="1" name="primePWTable" rows="10" units="ms">
-         0.1 
-         0.1 
-         0.1 
-         0.1 
-         0.1 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
          0.0 
          0.0 
          0.0 
@@ -862,7 +862,7 @@
          165.0 
          122.0 
          85.0 
-         70.0 
+         60.0 
       </constant>
 <constant cols="1" digits="0" name="asePctTable" rows="10" units="%">
          45.0 
@@ -1238,11 +1238,11 @@
 </page>
 <page number="2" size="1024">
 <constant cols="12" digits="1" name="advanceTable1" rows="12" units="deg">
-         15.0 15.0 15.0 12.0 22.4 29.0 31.8 35.0 35.0 35.0 35.0 35.0 
-         15.0 15.0 15.0 12.0 22.1 29.0 32.3 35.0 35.0 35.0 35.0 35.0 
-         15.0 15.0 15.0 11.8 21.6 27.6 31.8 34.4 34.4 34.4 34.4 34.4 
-         15.0 15.0 15.0 11.6 20.9 26.5 31.3 33.7 33.7 33.7 33.7 33.7 
-         15.0 15.0 15.0 12.8 20.9 25.9 30.7 33.1 33.1 33.1 33.1 33.1 
+         15.0 15.0 15.0 15.0 22.4 29.0 31.8 35.0 35.0 35.0 35.0 35.0 
+         15.0 15.0 15.0 15.0 22.1 29.0 32.3 35.0 35.0 35.0 35.0 35.0 
+         15.0 15.0 15.0 15.0 21.6 27.6 31.8 34.4 34.4 34.4 34.4 34.4 
+         15.0 15.0 15.0 15.0 20.9 26.5 31.3 33.7 33.7 33.7 33.7 33.7 
+         15.0 15.0 15.0 15.0 20.9 25.9 30.7 33.1 33.1 33.1 33.1 33.1 
          14.4 15.0 15.1 15.3 20.8 25.3 30.2 32.5 32.5 32.5 32.5 32.5 
          15.6 16.8 17.1 16.5 20.5 24.9 29.7 31.9 31.9 31.9 31.9 31.9 
          15.2 17.0 17.3 17.3 20.3 24.4 29.1 31.3 31.3 31.3 31.3 31.3 
@@ -1334,7 +1334,7 @@
 <constant digits="0" name="flats_arm" units="RPM">5000.0</constant>
 <constant digits="2" name="flats_deg" units="deg">0.0</constant>
 <constant digits="0" name="flats_hrd" units="RPM">5500.0</constant>
-<constant digits="0" name="staged_pri_size" units="cc">1092.0</constant>
+<constant digits="0" name="staged_pri_size" units="cc">1050.0</constant>
 <constant digits="0" name="staged_sec_size" units="cc">263.0</constant>
 <constant name="staged_first_param">"Off"</constant>
 <constant name="staged_second_param">"Off"</constant>
@@ -2579,18 +2579,18 @@
          99.99 
       </constant>
 <constant cols="5" digits="1" name="pwmidle_cl_initialvalues_duties" rows="5" units="%">
-         9.408 10.976 11.76 12.544 14.504 
-         8.232 9.8 10.584 10.976 12.936 
-         7.84 9.016 10.192 10.976 12.936 
-         6.664 7.448 9.016 9.8 11.76 
-         6.664 7.448 9.016 9.8 11.76 
+         7.448 8.624 9.8 10.976 12.544 
+         6.272 7.056 7.84 8.624 9.8 
+         5.096 5.488 5.88 6.272 7.056 
+         3.528 3.92 4.312 4.704 5.488 
+         3.528 3.92 4.312 4.704 5.488 
       </constant>
 <constant cols="5" digits="0" name="pwmidle_cl_initialvalues_steps" rows="5" units="steps">
-         24.0 28.0 30.0 32.0 37.0 
-         21.0 25.0 27.0 28.0 33.0 
-         20.0 23.0 26.0 28.0 33.0 
-         17.0 19.0 23.0 25.0 30.0 
-         17.0 19.0 23.0 25.0 30.0 
+         19.0 22.0 25.0 28.0 32.0 
+         16.0 18.0 20.0 22.0 25.0 
+         13.0 14.0 15.0 16.0 18.0 
+         9.0 10.0 11.0 12.0 14.0 
+         9.0 10.0 11.0 12.0 14.0 
       </constant>
 <constant cols="1" digits="3" name="mafv" rows="64" units="V">
          0.0 
@@ -3227,6 +3227,7 @@
 <userComment name="tsPrimaryInjectorSize" value=""/>
 <userComment name="advanceTable1" value="Lenta: &#10;+/-900rpm e 58kpa&#10;&#10;Pressao atmosferica em Curitiba:&#10;Parado: 90kpa&#10;WOT: 85kpa (por restriçao???)"/>
 <userComment name="pwmidle_decelload_threshold" value=""/>
+<userComment name="pwmidle_targ_ramptime" value=""/>
 <userComment name="flats_arm" value=""/>
 <userComment name="algorithm2" value=""/>
 <userComment name="afrTable1" value="Lenta: &#10;+/-900rpm e 58kpa&#10;&#10;Pressao atmosferica em Curitiba:&#10;Parado: 90kpa&#10;WOT: 85kpa (por restriçao???)"/>
