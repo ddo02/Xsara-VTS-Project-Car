@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Sun May 05 10:14:00 BRT 2019"/>
+<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Sun May 05 11:26:17 BRT 2019"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms330N2"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -293,7 +293,7 @@
 <constant digits="1" name="TPSOXLimit" units="%">110.0</constant>
 <constant digits="0" name="tpsProportion" units="%">100.0</constant>
 <constant name="baroCorr">"None"</constant>
-<constant name="egoType">"Disabled"</constant>
+<constant name="egoType">"Single Wide Band"</constant>
 <constant name="EgoOption_dual">"Off"</constant>
 <constant digits="0" name="egoCount">4.0</constant>
 <constant digits="1" name="egoDelta" units="%">1.0</constant>
@@ -307,8 +307,8 @@
 <constant digits="1" name="egoTemp" units="°C">49.995</constant>
 <constant digits="0" name="egoRPM" units="RPM">800.0</constant>
 <constant digits="2" name="reqFuel" units="ms">5.2</constant>
-<constant digits="0" name="divider">2.0</constant>
-<constant name="alternate">"Alternating"</constant>
+<constant digits="0" name="divider">4.0</constant>
+<constant name="alternate">"Simultaneous"</constant>
 <constant name="altcrank">"Every event"</constant>
 <constant digits="1" name="injPwmT" units="ms">25.488384</constant>
 <constant digits="0" name="injPwmPd" units="us">66.0</constant>
@@ -800,14 +800,14 @@
       </constant>
 <constant cols="1" digits="1" name="pwmidle_crank_dutyorsteps_duty" rows="4" units="%">
          25.48 
-         17.64 
-         11.76 
+         15.68 
+         9.8 
          5.88 
       </constant>
 <constant cols="1" digits="0" name="pwmidle_crank_dutyorsteps_steps" rows="4" units="steps">
          65.0 
-         45.0 
-         30.0 
+         40.0 
+         25.0 
          15.0 
       </constant>
 <constant cols="1" digits="1" name="pwmidle_crank_clt_temps" rows="4" units="°C">
@@ -857,8 +857,8 @@
          769.0 
          748.0 
          689.0 
-         600.0 
-         272.0 
+         492.0 
+         225.0 
          165.0 
          122.0 
          85.0 
@@ -2580,15 +2580,15 @@
       </constant>
 <constant cols="5" digits="1" name="pwmidle_cl_initialvalues_duties" rows="5" units="%">
          11.76 15.68 19.6 19.6 21.56 
-         7.84 11.76 15.68 17.64 19.6 
-         5.88 9.8 13.72 15.68 17.64 
+         7.84 11.76 15.68 16.464 17.64 
+         5.88 9.8 13.72 14.504 15.68 
          4.312 7.84 9.8 11.76 13.72 
          3.528 3.92 4.312 4.704 5.88 
       </constant>
 <constant cols="5" digits="0" name="pwmidle_cl_initialvalues_steps" rows="5" units="steps">
          30.0 40.0 50.0 50.0 55.0 
-         20.0 30.0 40.0 45.0 50.0 
-         15.0 25.0 35.0 40.0 45.0 
+         20.0 30.0 40.0 42.0 45.0 
+         15.0 25.0 35.0 37.0 40.0 
          11.0 20.0 25.0 30.0 35.0 
          9.0 10.0 11.0 12.0 15.0 
       </constant>
