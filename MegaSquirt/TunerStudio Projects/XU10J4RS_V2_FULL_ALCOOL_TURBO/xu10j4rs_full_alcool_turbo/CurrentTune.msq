@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Sun May 05 11:26:17 BRT 2019"/>
+<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Sat May 18 17:21:23 BRT 2019"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms330N2"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -686,7 +686,7 @@
          1100.0 
          1050.0 
          980.0 
-         900.0 
+         800.0 
       </constant>
 <constant cols="1" digits="1" name="pwmidle_clt_temps" rows="8" units="°C">
          0.0 
@@ -1238,11 +1238,11 @@
 </page>
 <page number="2" size="1024">
 <constant cols="12" digits="1" name="advanceTable1" rows="12" units="deg">
-         15.0 15.0 15.0 15.0 22.4 29.0 31.8 35.0 35.0 35.0 35.0 35.0 
-         15.0 15.0 15.0 15.0 22.1 29.0 32.3 35.0 35.0 35.0 35.0 35.0 
-         15.0 15.0 15.0 15.0 21.6 27.6 31.8 34.4 34.4 34.4 34.4 34.4 
-         15.0 15.0 15.0 15.0 20.9 26.5 31.3 33.7 33.7 33.7 33.7 33.7 
-         15.0 15.0 15.0 15.0 20.9 25.9 30.7 33.1 33.1 33.1 33.1 33.1 
+         13.0 13.0 13.0 13.0 22.4 29.0 31.8 35.0 35.0 35.0 35.0 35.0 
+         13.0 13.0 13.0 13.0 22.1 29.0 32.3 35.0 35.0 35.0 35.0 35.0 
+         13.0 13.0 13.0 13.0 21.6 27.6 31.8 34.4 34.4 34.4 34.4 34.4 
+         13.0 13.0 13.0 13.0 20.9 26.5 31.3 33.7 33.7 33.7 33.7 33.7 
+         13.0 13.0 13.0 13.0 20.9 25.9 30.7 33.1 33.1 33.1 33.1 33.1 
          14.4 15.0 15.1 15.3 20.8 25.3 30.2 32.5 32.5 32.5 32.5 32.5 
          15.6 16.8 17.1 16.5 20.5 24.9 29.7 31.9 31.9 31.9 31.9 31.9 
          15.2 17.0 17.3 17.3 20.3 24.4 29.1 31.3 31.3 31.3 31.3 31.3 
@@ -1591,7 +1591,7 @@
 <constant name="idleadvance_cl_cond">"Manual"</constant>
 <constant digits="1" name="idleadvance_tps" units="%">0.2</constant>
 <constant digits="0" name="idleadvance_rpm" units="rpm">1300.0</constant>
-<constant digits="0" name="idleadvance_load" units="%">30.0</constant>
+<constant digits="0" name="idleadvance_load" units="%">36.0</constant>
 <constant digits="1" name="idleadvance_clt" units="°C">19.998</constant>
 <constant digits="0" name="idleadvance_delay" units="sec">0.0</constant>
 <constant name="seq_inj">"Sequential/Semi-sequential"</constant>
@@ -2516,8 +2516,8 @@
          11.0 
          6.0 
          0.0 
-         -4.0 
-         -8.0 
+         -10.0 
+         -20.0 
       </constant>
 <constant cols="1" digits="1" name="idleadvance_loads" rows="5" units="%">
          30.0 
@@ -2581,15 +2581,15 @@
 <constant cols="5" digits="1" name="pwmidle_cl_initialvalues_duties" rows="5" units="%">
          11.76 15.68 19.6 19.6 21.56 
          7.84 11.76 15.68 16.464 17.64 
-         5.88 9.8 13.72 14.504 15.68 
-         4.312 7.84 9.8 11.76 13.72 
+         5.88 9.8 11.76 12.152 13.72 
+         4.312 7.84 9.8 10.976 12.936 
          3.528 3.92 4.312 4.704 5.88 
       </constant>
 <constant cols="5" digits="0" name="pwmidle_cl_initialvalues_steps" rows="5" units="steps">
          30.0 40.0 50.0 50.0 55.0 
          20.0 30.0 40.0 42.0 45.0 
-         15.0 25.0 35.0 37.0 40.0 
-         11.0 20.0 25.0 30.0 35.0 
+         15.0 25.0 30.0 31.0 35.0 
+         11.0 20.0 25.0 28.0 33.0 
          9.0 10.0 11.0 12.0 15.0 
       </constant>
 <constant cols="1" digits="3" name="mafv" rows="64" units="V">
