@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Sat May 18 17:21:23 BRT 2019"/>
+<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Thu May 23 16:58:24 BRT 2019"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms330N2"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -799,15 +799,15 @@
          7000.0 
       </constant>
 <constant cols="1" digits="1" name="pwmidle_crank_dutyorsteps_duty" rows="4" units="%">
-         25.48 
+         43.12 
+         31.36 
          15.68 
-         9.8 
          5.88 
       </constant>
 <constant cols="1" digits="0" name="pwmidle_crank_dutyorsteps_steps" rows="4" units="steps">
-         65.0 
+         110.0 
+         80.0 
          40.0 
-         25.0 
          15.0 
       </constant>
 <constant cols="1" digits="1" name="pwmidle_crank_clt_temps" rows="4" units="°C">
@@ -861,7 +861,7 @@
          225.0 
          165.0 
          122.0 
-         85.0 
+         91.0 
          60.0 
       </constant>
 <constant cols="1" digits="0" name="asePctTable" rows="10" units="%">
@@ -2579,16 +2579,16 @@
          79.992 
       </constant>
 <constant cols="5" digits="1" name="pwmidle_cl_initialvalues_duties" rows="5" units="%">
-         11.76 15.68 19.6 19.6 21.56 
-         7.84 11.76 15.68 16.464 17.64 
-         5.88 9.8 11.76 12.152 13.72 
+         10.192 13.72 19.992 21.952 23.52 
+         8.232 12.152 16.072 18.032 19.6 
+         6.272 10.192 12.152 14.112 15.68 
          4.312 7.84 9.8 10.976 12.936 
          3.528 3.92 4.312 4.704 5.88 
       </constant>
 <constant cols="5" digits="0" name="pwmidle_cl_initialvalues_steps" rows="5" units="steps">
-         30.0 40.0 50.0 50.0 55.0 
-         20.0 30.0 40.0 42.0 45.0 
-         15.0 25.0 30.0 31.0 35.0 
+         26.0 35.0 51.0 56.0 60.0 
+         21.0 31.0 41.0 46.0 50.0 
+         16.0 26.0 31.0 36.0 40.0 
          11.0 20.0 25.0 28.0 33.0 
          9.0 10.0 11.0 12.0 15.0 
       </constant>
