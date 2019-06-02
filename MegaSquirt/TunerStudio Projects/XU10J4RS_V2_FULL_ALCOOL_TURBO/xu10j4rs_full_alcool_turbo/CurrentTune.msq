@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Sat Jun 01 11:06:08 BRT 2019"/>
+<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Sun Jun 02 15:01:26 BRT 2019"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms330N2"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -79,7 +79,7 @@
          88.0 
       </constant>
 <constant name="PredOpt">"1st High RPM, 2nd Low"</constant>
-<constant digits="0" name="crankingRPM" units="RPM">400.0</constant>
+<constant digits="0" name="crankingRPM" units="RPM">650.0</constant>
 <constant cols="1" digits="1" name="cold_adv_table" rows="10" units="deg">
          9.0 
          8.0 
