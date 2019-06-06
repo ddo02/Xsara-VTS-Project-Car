@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Wed Jun 05 19:24:47 BRT 2019"/>
+<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Thu Jun 06 18:40:50 BRT 2019"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms330N2"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -711,7 +711,7 @@
 <constant digits="1" name="pwmidle_dp_adder" units="%">1.176</constant>
 <constant digits="0" name="pwmidle_dp_adder_steps" units="steps">3.0</constant>
 <constant digits="0" name="pwmidle_rpmdot_threshold" units="rpm/sec">1000.0</constant>
-<constant digits="1" name="pwmidle_decelload_threshold" units="%">32.0</constant>
+<constant digits="1" name="pwmidle_decelload_threshold" units="%">30.0</constant>
 <constant digits="1" name="pwmidle_Kp_new" units="%">70.0</constant>
 <constant digits="1" name="pwmidle_Ki_new" units="%">70.0</constant>
 <constant digits="1" name="pwmidle_Kd_new" units="%">100.0</constant>
@@ -799,13 +799,13 @@
          7000.0 
       </constant>
 <constant cols="1" digits="1" name="pwmidle_crank_dutyorsteps_duty" rows="4" units="%">
-         47.04 
+         39.2 
          21.56 
          11.76 
          5.88 
       </constant>
 <constant cols="1" digits="0" name="pwmidle_crank_dutyorsteps_steps" rows="4" units="steps">
-         120.0 
+         100.0 
          55.0 
          30.0 
          15.0 
@@ -841,10 +841,10 @@
          100.0 
       </constant>
 <constant cols="1" digits="1" name="primePWTable" rows="10" units="ms">
-         0.0 
-         0.0 
-         0.0 
-         0.0 
+         2.0 
+         2.0 
+         2.0 
+         2.0 
          0.0 
          0.0 
          0.0 
@@ -2581,14 +2581,14 @@
 <constant cols="5" digits="1" name="pwmidle_cl_initialvalues_duties" rows="5" units="%">
          10.192 13.72 19.992 21.952 23.52 
          8.232 12.152 16.072 18.032 19.6 
-         6.272 10.192 12.152 14.112 15.68 
+         6.272 8.624 10.584 12.544 14.112 
          5.488 7.84 9.8 10.976 12.936 
          5.096 5.88 6.272 6.664 7.84 
       </constant>
 <constant cols="5" digits="0" name="pwmidle_cl_initialvalues_steps" rows="5" units="steps">
          26.0 35.0 51.0 56.0 60.0 
          21.0 31.0 41.0 46.0 50.0 
-         16.0 26.0 31.0 36.0 40.0 
+         16.0 22.0 27.0 32.0 36.0 
          14.0 20.0 25.0 28.0 33.0 
          13.0 15.0 16.0 17.0 20.0 
       </constant>
