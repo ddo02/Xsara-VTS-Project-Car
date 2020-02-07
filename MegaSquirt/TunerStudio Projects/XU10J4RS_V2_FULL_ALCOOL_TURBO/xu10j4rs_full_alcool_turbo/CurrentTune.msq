@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Fri Jan 03 19:35:21 BRST 2020"/>
+<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Fri Feb 07 17:05:54 BRST 2020"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms330N2"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -96,11 +96,11 @@
 <constant digits="1" name="TpsBypassCLTRevlim" units="TPS %">90.0</constant>
 <constant digits="0" name="RevLimNormal2_hyst" units="RPM">200.0</constant>
 <constant cols="12" digits="3" name="afrTable1" rows="12" units="Lambda">
-         0.959223 0.959223 1.000041 1.061268 1.074874 1.074874 1.054465 1.034056 0.979632 0.95242 0.95242 0.95242 
-         0.959223 0.959223 1.000041 1.061268 1.074874 1.074874 1.054465 1.034056 0.979632 0.95242 0.95242 0.95242 
-         0.959223 0.959223 1.000041 1.061268 1.074874 1.074874 1.054465 1.034056 0.979632 0.95242 0.95242 0.95242 
-         0.959223 0.959223 1.000041 1.061268 1.074874 1.074874 1.054465 1.034056 0.979632 0.95242 0.95242 0.95242 
-         0.932011 0.932011 0.932011 1.000041 1.074874 1.074874 1.054465 1.034056 0.979632 0.95242 0.95242 0.95242 
+         0.966026 0.966026 0.972829 0.979632 0.979632 0.979632 0.979632 0.979632 0.979632 0.95242 0.95242 0.95242 
+         0.966026 0.966026 1.000041 1.027253 1.047662 1.047662 1.040859 1.034056 0.979632 0.95242 0.95242 0.95242 
+         0.966026 0.966026 1.000041 1.027253 1.047662 1.047662 1.040859 1.034056 0.979632 0.95242 0.95242 0.95242 
+         0.966026 0.966026 1.000041 1.027253 1.047662 1.047662 1.040859 1.034056 0.979632 0.95242 0.95242 0.95242 
+         0.932011 0.932011 0.932011 1.000041 1.047662 1.047662 1.040859 1.034056 0.979632 0.95242 0.95242 0.95242 
          0.911602 0.911602 0.904799 0.904799 0.897996 0.891193 0.891193 0.891193 0.891193 0.891193 0.88439 0.877587 
          0.911602 0.911602 0.904799 0.904799 0.897996 0.891193 0.891193 0.891193 0.891193 0.891193 0.88439 0.877587 
          0.911602 0.904799 0.904799 0.897996 0.897996 0.877587 0.863981 0.850375 0.843572 0.836769 0.836769 0.829966 
@@ -143,9 +143,9 @@
       </constant>
 <constant cols="1" digits="1" name="maeBins" rows="4" units="ms">
          0.0 
+         0.7 
          1.5 
          2.3 
-         3.0 
       </constant>
 <constant cols="1" digits="0" name="iacstepTable" rows="10" units="steps">
          71.0 
@@ -188,7 +188,7 @@
          8000.0 
       </constant>
 <constant cols="1" digits="1" name="amap_table1" rows="12" units="%">
-         30.0 
+         15.0 
          35.0 
          45.0 
          55.0 
@@ -234,7 +234,7 @@
          1200.0 
       </constant>
 <constant cols="1" digits="0" name="maeRates" rows="4" units="kPa/s">
-         30.0 
+         15.0 
          100.0 
          200.0 
          300.0 
@@ -285,10 +285,10 @@
 <constant digits="1" name="tpsThresh" units="%/s">7.0</constant>
 <constant digits="0" name="mapThresh" units="kPa/s">30.0</constant>
 <constant digits="1" name="taeColdA" units="ms">20.0</constant>
-<constant digits="0" name="taeColdM" units="%">100.0</constant>
+<constant digits="0" name="taeColdM" units="%">0.0</constant>
 <constant digits="1" name="mapsample_angle" units="deg">40.0</constant>
 <constant digits="1" name="taeTime" units="s">0.7</constant>
-<constant digits="0" name="tdePct">70.0</constant>
+<constant digits="0" name="tdePct">50.0</constant>
 <constant digits="1" name="floodClear" units="%">70.0</constant>
 <constant digits="1" name="TPSOXLimit" units="%">110.0</constant>
 <constant digits="0" name="tpsProportion" units="%">0.0</constant>
@@ -1238,12 +1238,12 @@
 </page>
 <page number="2" size="1024">
 <constant cols="12" digits="1" name="advanceTable1" rows="12" units="deg">
-         2.0 2.0 2.0 2.0 22.4 29.0 31.8 35.0 35.0 35.0 35.0 35.0 
-         2.0 2.0 2.0 2.0 22.1 29.0 32.3 35.0 35.0 35.0 35.0 35.0 
-         2.0 2.0 2.0 2.0 21.6 27.6 31.8 34.4 34.4 34.4 34.4 34.4 
-         2.0 2.0 2.0 2.0 20.9 26.5 31.3 33.7 33.7 33.7 33.7 33.7 
-         2.0 2.0 2.0 2.0 20.9 25.9 30.7 33.1 33.1 33.1 33.1 33.1 
-         14.4 15.0 15.1 15.3 20.8 25.3 30.2 32.5 32.5 32.5 32.5 32.5 
+         2.0 2.0 2.0 2.0 22.4 29.0 31.0 32.4 32.4 32.4 32.4 32.4 
+         2.0 2.0 2.0 2.0 22.1 29.0 31.0 32.7 32.7 32.7 32.7 32.7 
+         2.0 2.0 2.0 2.0 21.6 27.6 30.9 32.6 32.6 32.6 32.6 32.6 
+         2.0 2.0 2.0 2.0 20.9 26.5 30.8 32.7 32.7 32.7 32.7 32.7 
+         2.0 2.0 2.0 2.0 20.9 25.9 30.7 32.7 32.7 32.7 32.7 32.7 
+         14.4 15.0 15.1 15.3 20.8 25.3 30.2 32.3 32.3 32.3 32.3 32.3 
          15.6 16.8 17.1 16.5 20.5 24.9 29.7 31.9 31.9 31.9 31.9 31.9 
          15.2 17.0 17.3 17.3 20.3 24.4 29.1 31.3 31.3 31.3 31.3 31.3 
          15.5 17.2 17.5 18.4 20.3 24.1 28.6 30.6 30.6 30.6 30.6 30.6 
@@ -1607,12 +1607,12 @@
 <constant digits="1" name="injstagedadv2" units="deg">270.0</constant>
 <constant digits="1" name="injstagedadv3" units="deg">90.0</constant>
 <constant cols="6" digits="1" name="injadvTable1" rows="6" units="deg">
-         306.0 366.0 486.0 486.0 486.0 486.0 
-         306.0 366.0 486.0 486.0 486.0 486.0 
-         306.0 366.0 486.0 486.0 486.0 486.0 
-         306.0 366.0 486.0 486.0 486.0 486.0 
-         306.0 366.0 486.0 486.0 486.0 486.0 
-         306.0 366.0 486.0 486.0 486.0 486.0 
+         500.0 366.0 306.0 306.0 306.0 306.0 
+         500.0 366.0 306.0 306.0 306.0 306.0 
+         500.0 366.0 306.0 306.0 306.0 306.0 
+         500.0 366.0 306.0 306.0 306.0 306.0 
+         500.0 366.0 306.0 306.0 306.0 306.0 
+         500.0 366.0 306.0 306.0 306.0 306.0 
       </constant>
 <constant cols="6" digits="1" name="injadvTable2" rows="6" units="deg">
          270.0 270.0 270.0 270.0 270.0 270.0 
@@ -1654,7 +1654,7 @@
          90.0 
          100.0 
       </constant>
-<constant digits="1" name="injcrankadv1" units="deg">240.0</constant>
+<constant digits="1" name="injcrankadv1" units="deg">360.0</constant>
 <constant digits="1" name="injcrankadv2" units="deg">270.0</constant>
 <constant digits="0" name="hybrid_rpm" units="RPM">15000.0</constant>
 <constant digits="0" name="hybrid_hyst" units="RPM">100.0</constant>
