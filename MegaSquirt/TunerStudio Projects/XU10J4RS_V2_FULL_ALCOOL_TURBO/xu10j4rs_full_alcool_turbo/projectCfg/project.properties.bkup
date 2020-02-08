@@ -1,7 +1,7 @@
 #Project Attributes.
 #TunerStudio by EFI Analytics, Inc
-#Last Saved on: Fri Feb 07 15:06:54 BRST 2020
-#Fri Feb 07 15:06:54 BRST 2020
+#Last Saved on: Fri Feb 07 21:54:42 BRT 2020
+#Fri Feb 07 21:54:42 BRT 2020
 boostctlSettingsBoost\ Control\ Settings_width=875
 tpswot_curveTPS\ for\ WOT_width=404
 idleAdvance_adaptive_curveIdle\ Adaptive\ Advance\ Timing_height=738
@@ -149,7 +149,7 @@ manifoldTempCorr2MAT\ air\ density\ correction_X=1920
 VeAnalyzeConsole.veTable1Tbl_selectedDash=Standard
 flexFuelSettingsFuel\ Sensor\ Settings_height=388
 ignitionTbl1Spark\ Advance\ Table1_Y=162
-Triggers.EventTrigger\:Stop\ Data\ log\:triggered=true
+Triggers.EventTrigger\:Stop\ Data\ log\:triggered=false
 ignitionTbl1Spark\ Advance\ Table1_X=282
 crsettingsCranking\ settings_Y=197
 pwmidle_target_curveClosed\ loop\ idle\ target\ rpms_width=1280
@@ -183,7 +183,7 @@ ac_idleupAir\ Conditioning\ Idleup_Y=98
 ac_idleupAir\ Conditioning\ Idleup_X=393
 generalsettings2General\ settings_height=738
 ignitionTbl1Spark\ Advance\ Table1_width=964
-AEtime_settingsTime-based\ Accel\ Enrichment_width=1258
+AEtime_settingsTime-based\ Accel\ Enrichment_width=1234
 PersistedAccumulatedValue_(\ (\ tsFuelFlowGph\ *\ deltatime\ /\ 3600.0\ )\ )=-0.0
 limitsettingsLimit\ settings_width=446
 VeAnalyzePanel_veTable1Tbl_targetLambdaChannelName=
@@ -197,7 +197,7 @@ CommSettingCom\ Port=COM4
 combinedidleIdle\ Control_height=554
 limitsettingsLimit\ settings_X=758
 baseEngine\ and\ Sequential\ Settings_height=688
-Triggers.EventTrigger\:Data\ log\:triggered=true
+Triggers.EventTrigger\:Data\ log\:triggered=false
 pwmidle_target_curveClosed\ loop\ idle\ target\ rpms_height=614
 flexFuelSettingsFuel\ Sensor\ Settings_width=462
 idleAdvance_adaptive_curve_showText=true
