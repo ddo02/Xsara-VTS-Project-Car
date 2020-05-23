@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.1.01 - EFI Analytics, Inc." tuneComment="" writeDate="Fri Feb 07 22:51:19 BRT 2020"/>
+<bibliography author="TunerStudio MS 3.1.01 - EFI Analytics, Inc." tuneComment="" writeDate="Sat May 23 17:12:37 BRT 2020"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms330N2"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -126,12 +126,12 @@
          0.863981 0.857178 0.843572 0.836769 0.829966 0.823163 0.823163 0.809557 0.809557 0.809557 0.809557 0.802754 
       </constant>
 <constant cols="1" digits="0" name="wueBins" rows="10" units="%">
-         128.0 
-         120.0 
+         118.0 
          114.0 
          110.0 
-         108.0 
+         107.0 
          105.0 
+         104.0 
          103.0 
          102.0 
          101.0 
@@ -139,9 +139,9 @@
       </constant>
 <constant cols="1" digits="1" name="taeBins" rows="4" units="ms">
          0.0 
-         2.0 
-         3.0 
-         3.5 
+         0.9 
+         1.6 
+         2.1 
       </constant>
 <constant cols="1" digits="1" name="maeBins" rows="4" units="ms">
          0.0 
@@ -286,11 +286,11 @@
 <constant name="secondtrigopts3">"Off"</constant>
 <constant digits="1" name="tpsThresh" units="%/s">30.0</constant>
 <constant digits="0" name="mapThresh" units="kPa/s">15.0</constant>
-<constant digits="1" name="taeColdA" units="ms">20.0</constant>
-<constant digits="0" name="taeColdM" units="%">0.0</constant>
+<constant digits="1" name="taeColdA" units="ms">0.0</constant>
+<constant digits="0" name="taeColdM" units="%">100.0</constant>
 <constant digits="1" name="mapsample_angle" units="deg">40.0</constant>
 <constant digits="1" name="taeTime" units="s">0.7</constant>
-<constant digits="0" name="tdePct">50.0</constant>
+<constant digits="0" name="tdePct">80.0</constant>
 <constant digits="1" name="floodClear" units="%">70.0</constant>
 <constant digits="1" name="TPSOXLimit" units="%">110.0</constant>
 <constant digits="0" name="tpsProportion" units="%">100.0</constant>
@@ -308,7 +308,7 @@
 <constant digits="1" name="fastIdleT" units="°C">59.994</constant>
 <constant digits="1" name="egoTemp" units="°C">64.9935</constant>
 <constant digits="0" name="egoRPM" units="RPM">750.0</constant>
-<constant digits="2" name="reqFuel" units="ms">5.2</constant>
+<constant digits="2" name="reqFuel" units="ms">4.8</constant>
 <constant digits="0" name="divider">4.0</constant>
 <constant name="alternate">"Simultaneous"</constant>
 <constant name="altcrank">"Every event"</constant>
@@ -718,8 +718,8 @@
 <constant digits="1" name="pwmidle_Ki_new" units="%">70.0</constant>
 <constant digits="1" name="pwmidle_Kd_new" units="%">100.0</constant>
 <constant name="pwmidle_freq">"92Hz"</constant>
-<constant name="pwmidle_freq_cl_opts_display_pid">"Advanced"</constant>
-<constant digits="0" name="pwmidle_max_rpm_new">2014.0</constant>
+<constant name="pwmidle_freq_cl_opts_display_pid">"Basic"</constant>
+<constant digits="0" name="pwmidle_max_rpm_new">952.0</constant>
 <constant digits="0" name="pwmidle_targ_ramptime" units="sec">2.0</constant>
 <constant digits="0" name="pwmidle_rpmdot_disablepid">200.0</constant>
 <constant name="pwmidle_port">"Local"</constant>
@@ -804,13 +804,13 @@
          31.36 
          19.6 
          15.68 
-         9.8 
+         10.584 
       </constant>
 <constant cols="1" digits="0" name="pwmidle_crank_dutyorsteps_steps" rows="4" units="steps">
          80.0 
          50.0 
          40.0 
-         25.0 
+         27.0 
       </constant>
 <constant cols="1" digits="1" name="pwmidle_crank_clt_temps" rows="4" units="°C">
          0.0 
@@ -863,20 +863,20 @@
          225.0 
          130.0 
          100.0 
-         70.0 
-         60.0 
+         100.0 
+         100.0 
       </constant>
 <constant cols="1" digits="0" name="asePctTable" rows="10" units="%">
-         56.0 
-         47.0 
-         38.0 
-         30.0 
-         25.0 
-         20.0 
+         36.0 
+         29.0 
+         22.0 
+         18.0 
          15.0 
-         10.0 
+         12.0 
+         9.0 
          6.0 
          5.0 
+         4.0 
       </constant>
 <constant cols="1" digits="0" name="aseCntTable" rows="10" units="cycles">
          319.0 
@@ -1240,11 +1240,11 @@
 </page>
 <page number="2" size="1024">
 <constant cols="12" digits="1" name="advanceTable1" rows="12" units="deg">
-         2.0 2.0 2.0 2.0 22.4 29.0 31.0 32.4 32.4 32.4 32.4 32.4 
-         2.0 2.0 2.0 2.0 22.1 29.0 31.0 32.7 32.7 32.7 32.7 32.7 
-         2.0 2.0 2.0 2.0 21.6 27.6 30.9 32.6 32.6 32.6 32.6 32.6 
-         2.0 2.0 2.0 2.0 20.9 26.5 30.8 32.7 32.7 32.7 32.7 32.7 
-         2.0 2.0 2.0 2.0 20.9 25.9 30.7 32.7 32.7 32.7 32.7 32.7 
+         12.0 12.0 12.0 12.0 22.4 29.0 31.0 32.4 32.4 32.4 32.4 32.4 
+         12.0 12.0 12.0 12.0 22.1 29.0 31.0 32.7 32.7 32.7 32.7 32.7 
+         12.0 12.0 12.0 12.0 21.6 27.6 30.9 32.6 32.6 32.6 32.6 32.6 
+         12.0 12.0 12.0 12.0 20.9 26.5 30.8 32.7 32.7 32.7 32.7 32.7 
+         12.0 12.0 12.0 12.0 20.9 25.9 30.7 32.7 32.7 32.7 32.7 32.7 
          14.4 15.0 15.1 15.3 20.8 25.3 30.2 32.3 32.3 32.3 32.3 32.3 
          15.6 16.8 17.1 16.5 20.5 24.9 29.7 31.9 31.9 31.9 31.9 31.9 
          15.2 17.0 17.3 17.3 20.3 24.4 29.1 31.3 31.3 31.3 31.3 31.3 
@@ -1517,6 +1517,7 @@
 <constant digits="1" name="testint" units="ms">99.968</constant>
 <constant digits="0" name="testrpm" units="RPM">1200.3841229</constant>
 <constant digits="3" name="testpw" units="ms">1.999998</constant>
+<constant digits="0" name="testinjcnt">10.0</constant>
 <constant name="testsel_inj">"Inj1"</constant>
 <constant name="testsel_coil">"CoilA"</constant>
 <constant cols="12" digits="1" name="advanceTable3" rows="12" units="deg">
@@ -1706,16 +1707,16 @@
          45.0 
          50.0 
          55.0 
-         60.0 
-         65.0 
-         70.0 
-         75.0 
-         80.0 
-         85.0 
-         90.0 
-         95.0 
-         98.0 
-         100.0 
+         -0.1 
+         -0.1 
+         -0.1 
+         -0.1 
+         -0.1 
+         -0.1 
+         -0.1 
+         -0.1 
+         -0.1 
+         -0.1 
       </constant>
 <constant cols="12" digits="1" name="veTrim1dozen" rows="12" units="%">
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
@@ -1752,45 +1753,45 @@
          45.0 
          50.0 
          55.0 
-         60.0 
-         65.0 
-         70.0 
-         75.0 
-         80.0 
-         85.0 
+         -0.1 
+         -0.1 
+         -0.1 
+         -0.1 
+         -0.1 
+         -0.1 
       </constant>
 <constant cols="1" digits="0" name="sen_calib_table_id" rows="2" units="id">
-         0.0 
-         0.0 
+         255.0 
+         255.0 
       </constant>
 <constant cols="1" digits="0" name="sen_calib_units" rows="2" units="id">
-         0.0 
-         0.0 
+         255.0 
+         255.0 
       </constant>
 <constant cols="1" digits="0" name="sen_calib_bias" rows="2" units="ohms">
-         0.0 
-         0.0 
+         -1.0 
+         -1.0 
       </constant>
 <constant cols="2" digits="1" name="sen_calib_temp" rows="3" units="deg">
-         0.0 0.0 
-         0.0 0.0 
-         0.0 0.0 
+         -0.1 -0.1 
+         -0.1 -0.1 
+         -0.1 -0.1 
       </constant>
 <constant cols="2" digits="0" name="sen_calib_res1" rows="3" units="ohms">
-         0.0 0.0 
-         0.0 0.0 
-         0.0 0.0 
+         -1.0 -1.0 
+         -1.0 -1.0 
+         -1.0 -1.0 
       </constant>
-<constant digits="0" name="ego_calib_selection" units="index">0.0</constant>
+<constant digits="0" name="ego_calib_selection" units="index">255.0</constant>
 <constant cols="1" digits="1" name="ego_calib_volts" rows="3" units="Volts">
-         0.0 
-         0.0 
-         0.0 
+         25.5 
+         25.5 
+         25.5 
       </constant>
 <constant cols="1" digits="1" name="ego_calib_afrs" rows="3" units="AFR">
-         0.0 
-         0.0 
-         0.0 
+         25.5 
+         25.5 
+         25.5 
       </constant>
 <constant cols="1" digits="0" name="UNALLOCATED_SPACE_3_0" rows="18" units="RAW">
          0.0 
@@ -1813,21 +1814,21 @@
          0.0 
       </constant>
 <constant cols="1" digits="0" name="UNALLOCATED_SPACE_3_1" rows="12" units="RAW">
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
       </constant>
 <constant digits="0" name="UNALLOCATED_TOP_3" units="RAW">
-         0.0 
+         255.0 
       </constant>
 </page>
 <page number="4" size="1024">
@@ -2514,11 +2515,11 @@
 <constant name="pwmidle_cl_opts_initvaluetable">"Use initial value table"</constant>
 <constant name="pwmidle_cl_opts_initval_clt">"Use CLT"</constant>
 <constant cols="1" digits="1" name="idleadvance_curve" rows="5" units="deg">
-         11.0 
-         6.0 
-         0.0 
-         -5.0 
+         1.0 
+         -4.0 
          -10.0 
+         -15.0 
+         -20.0 
       </constant>
 <constant cols="1" digits="1" name="idleadvance_loads" rows="5" units="%">
          30.0 
