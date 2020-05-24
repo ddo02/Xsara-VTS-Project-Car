@@ -1,7 +1,7 @@
 #Project Attributes.
 #TunerStudio by EFI Analytics, Inc
-#Last Saved on: Sat May 23 17:12:43 BRT 2020
-#Sat May 23 17:12:43 BRT 2020
+#Last Saved on: Sun May 24 13:44:19 BRT 2020
+#Sun May 24 13:44:19 BRT 2020
 boostctlSettingsBoost\ Control\ Settings_width=875
 tpswot_curveTPS\ for\ WOT_width=404
 idleAdvance_adaptive_curveIdle\ Adaptive\ Advance\ Timing_height=590
@@ -59,8 +59,8 @@ veGenerator_txtDisplacementCid=122
 knockSettingsKnock\ Sensor\ Settings_width=933
 outputtest_ioOutput\ Test\ Mode\ -\ I/O_width=937
 time_accel_tpsdot_curve_showText=true
-veTable1TblVE\ Table\ 1_Y=0
-veTable1TblVE\ Table\ 1_X=0
+veTable1TblVE\ Table\ 1_Y=226
+veTable1TblVE\ Table\ 1_X=189
 map_sample_dialogMAP\ sample\ general\ settings_width=404
 CommSettingMSCommDriver.RS232\ Serial\ InterfaceBluetooth\ Port=true
 Triggers.EventTrigger\:Data\ log\:resetExpression=AppEvent.dataLoggingActive \=\= 0
@@ -99,7 +99,7 @@ map_sample_dialogMAP\ sample\ general\ settings_X=758
 userDash1.FileName=DDO.dash
 CommSettingVTS-PCCommDriver.RS232\ Serial\ InterfaceCom\ Port=COM6
 idlebinsIdle\ Warmup\ duty/steps_height=602
-veTable1TblVE\ Table\ 1_width=1280
+veTable1TblVE\ Table\ 1_width=1024
 VeAnalyzePanel_veTable1Tbl_maxWeight=1.7976931348623157E308
 outputtestOutput\ Test\ Mode\ -\ Inj/Spk_width=648
 accelsettingsAccel\ enrich\ settings_Y=244
@@ -199,7 +199,7 @@ CommSettingCom\ Port=COM4
 combinedidleIdle\ Control_height=443
 limitsettingsLimit\ settings_X=758
 baseEngine\ and\ Sequential\ Settings_height=550
-Triggers.EventTrigger\:Data\ log\:triggered=true
+Triggers.EventTrigger\:Data\ log\:triggered=false
 pwmidle_target_curveClosed\ loop\ idle\ target\ rpms_height=590
 flexFuelSettingsFuel\ Sensor\ Settings_width=462
 idleAdvance_adaptive_curve_showText=true
@@ -327,7 +327,7 @@ refTable_001_txtBiasResistor=2490
 ShiftSettingsShifter\ System_width=404
 veGenerator_txtPkHpMap=200
 Triggers.VE_TEST.ActiveTriggers=
-combinedignitionCombined\ Ignition\ Options_height=590
+combinedignitionCombined\ Ignition\ Options_height=638
 iacBins_Set\ X\ Axis\ Minimum=-40.0
 aseTaper_Set\ X\ Axis\ Minimum=-40.0
 iactestIdle\ valve\ test_width=764
@@ -367,7 +367,7 @@ ShiftSettingsShifter\ System_X=2516
 iactestIdle\ valve\ test_Y=75
 iactestIdle\ valve\ test_X=315
 time_accel_tpsdot_curve_Auto\ Scale\ Y\ Axis\ Maximum=true
-combinedignitionCombined\ Ignition\ Options_width=750
+combinedignitionCombined\ Ignition\ Options_width=862
 asePct_Set\ X\ Axis\ Minimum=-40.0
 veTable3TblVE\ Table\ 3_Y=0
 veTable3TblVE\ Table\ 3_X=1920
@@ -405,8 +405,8 @@ CommSettingMSCommDriver.RS232\ Serial\ InterfaceBaud\ Rate=115200
 VeAnalyzeConsole.veTable3Tbl_horizontalSplitPos=222
 VeAnalyzeConsole.veTable2Tbl_selectedDash=Standard
 injCharsInjector\ Dead-time/PWM_height=738
-afrTable1TblLambda\ Table\ 1_Y=0
-afrTable1TblLambda\ Table\ 1_X=0
+afrTable1TblLambda\ Table\ 1_Y=207
+afrTable1TblLambda\ Table\ 1_X=234
 VeAnalyzeConsole.veTable3Tbl_verticalSplitPos=514
 canbroadcastCAN\ Broadcasting_Y=322
 boostctlDtyMap3DBoost\ Control\ Duty_width=808
@@ -415,7 +415,7 @@ N2OSystemNitrous\ System_height=605
 battcalibBattery\ Voltage\ Calibration_width=446
 matBasedRetardMAT-Based\ Timing\ Retard_width=508
 PersistedAccumulatedValue_(\ tsInputSpeedMPH\ /\ 3600.0\ *\ deltatime\ )=0.0
-veTable1TblVE\ Table\ 1_height=738
+veTable1TblVE\ Table\ 1_height=590
 injTiming1Map3DInjection\ Timing\ Table1_width=808
 idleAdvance_load_curveIdle\ Load\ Advance\ Timing_Y=374
 coldAdvance_Set\ X\ Axis\ Minimum=-40.0
