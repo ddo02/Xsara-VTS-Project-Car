@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.1.03 - EFI Analytics, Inc." tuneComment="" writeDate="Sat May 30 19:55:15 BRT 2020"/>
+<bibliography author="TunerStudio MS 3.1.03 - EFI Analytics, Inc." tuneComment="" writeDate="Sun May 31 14:54:09 BRT 2020"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms330N2"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -295,7 +295,7 @@
 <constant digits="1" name="TPSOXLimit" units="%">110.0</constant>
 <constant digits="0" name="tpsProportion" units="%">100.0</constant>
 <constant name="baroCorr">"None"</constant>
-<constant name="egoType">"Disabled"</constant>
+<constant name="egoType">"Single Wide Band"</constant>
 <constant name="EgoOption_dual">"Off"</constant>
 <constant digits="0" name="egoCount">8.0</constant>
 <constant digits="1" name="egoDelta" units="%">1.0</constant>
@@ -308,7 +308,7 @@
 <constant digits="1" name="fastIdleT" units="°C">59.994</constant>
 <constant digits="1" name="egoTemp" units="°C">64.9935</constant>
 <constant digits="0" name="egoRPM" units="RPM">750.0</constant>
-<constant digits="2" name="reqFuel" units="ms">4.8</constant>
+<constant digits="2" name="reqFuel" units="ms">5.2</constant>
 <constant digits="0" name="divider">4.0</constant>
 <constant name="alternate">"Simultaneous"</constant>
 <constant name="altcrank">"Every event"</constant>
@@ -879,12 +879,12 @@
          4.0 
       </constant>
 <constant cols="1" digits="0" name="aseCntTable" rows="10" units="cycles">
-         319.0 
-         300.0 
-         281.0 
-         263.0 
-         244.0 
-         225.0 
+         800.0 
+         701.0 
+         602.0 
+         503.0 
+         404.0 
+         305.0 
          206.0 
          188.0 
          169.0 
@@ -1517,6 +1517,7 @@
 <constant digits="1" name="testint" units="ms">99.968</constant>
 <constant digits="0" name="testrpm" units="RPM">1200.3841229</constant>
 <constant digits="3" name="testpw" units="ms">1.999998</constant>
+<constant digits="0" name="testinjcnt">10.0</constant>
 <constant name="testsel_inj">"Inj1"</constant>
 <constant name="testsel_coil">"CoilA"</constant>
 <constant cols="12" digits="1" name="advanceTable3" rows="12" units="deg">
