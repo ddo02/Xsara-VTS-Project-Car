@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.1.03 - EFI Analytics, Inc." tuneComment="" writeDate="Sun May 31 14:54:09 BRT 2020"/>
+<bibliography author="TunerStudio MS 3.1.03 - EFI Analytics, Inc." tuneComment="" writeDate="Sat Jun 06 16:34:09 BRT 2020"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms330N2"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -475,7 +475,7 @@
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 
       </constant>
 <constant digits="1" name="aeTaperTime" units="s">0.0</constant>
-<constant digits="1" name="primedelay" units="s">0.0</constant>
+<constant digits="1" name="primedelay" units="s">2.0</constant>
 <constant digits="1" name="aeEndPW" units="ms">0.0</constant>
 <constant name="egoAlgorithm">"PID"</constant>
 <constant digits="0" name="egoKP" units="%">20.0</constant>
@@ -843,11 +843,11 @@
          100.0 
       </constant>
 <constant cols="1" digits="1" name="primePWTable" rows="10" units="ms">
+         4.0 
+         3.5 
+         3.0 
          2.0 
-         2.0 
-         2.0 
-         2.0 
-         0.0 
+         1.0 
          0.0 
          0.0 
          0.0 
