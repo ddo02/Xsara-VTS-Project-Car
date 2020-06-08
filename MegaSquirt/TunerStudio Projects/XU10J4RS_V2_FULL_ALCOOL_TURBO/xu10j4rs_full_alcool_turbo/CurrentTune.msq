@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.1.03 - EFI Analytics, Inc." tuneComment="" writeDate="Mon Jun 08 17:35:07 BRT 2020"/>
+<bibliography author="TunerStudio MS 3.1.03 - EFI Analytics, Inc." tuneComment="" writeDate="Mon Jun 08 18:03:23 BRT 2020"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms330N2"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -856,10 +856,10 @@
       </constant>
 <constant cols="1" digits="0" name="crankPctTable" rows="10" units="%">
          600.0 
+         550.0 
          450.0 
-         350.0 
+         380.0 
          300.0 
-         250.0 
          200.0 
          150.0 
          140.0 
@@ -1517,6 +1517,7 @@
 <constant digits="1" name="testint" units="ms">99.968</constant>
 <constant digits="0" name="testrpm" units="RPM">1200.3841229</constant>
 <constant digits="3" name="testpw" units="ms">1.999998</constant>
+<constant digits="0" name="testinjcnt">10.0</constant>
 <constant name="testsel_inj">"Inj1"</constant>
 <constant name="testsel_coil">"CoilA"</constant>
 <constant cols="12" digits="1" name="advanceTable3" rows="12" units="deg">
