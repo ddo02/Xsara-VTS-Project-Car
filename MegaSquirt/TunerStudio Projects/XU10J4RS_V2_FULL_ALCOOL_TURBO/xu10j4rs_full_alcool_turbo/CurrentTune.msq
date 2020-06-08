@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.1.03 - EFI Analytics, Inc." tuneComment="" writeDate="Mon Jun 08 14:56:47 BRT 2020"/>
+<bibliography author="TunerStudio MS 3.1.03 - EFI Analytics, Inc." tuneComment="" writeDate="Mon Jun 08 17:35:07 BRT 2020"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms330N2"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -53,7 +53,7 @@
 </page>
 <page number="0" size="1024">
 <constant name="nCylinders">"4"</constant>
-<constant digits="0" name="no_skip_pulses">1.0</constant>
+<constant digits="0" name="no_skip_pulses">15.0</constant>
 <constant name="ICIgnCapture">"Rising Edge"</constant>
 <constant name="engineType">"Even fire"</constant>
 <constant name="spkout_hi_lo">"Going High (Inverted)"</constant>
@@ -475,7 +475,7 @@
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 
       </constant>
 <constant digits="1" name="aeTaperTime" units="s">0.0</constant>
-<constant digits="1" name="primedelay" units="s">2.0</constant>
+<constant digits="1" name="primedelay" units="s">1.5</constant>
 <constant digits="1" name="aeEndPW" units="ms">0.0</constant>
 <constant name="egoAlgorithm">"PID"</constant>
 <constant digits="0" name="egoKP" units="%">20.0</constant>
@@ -843,10 +843,10 @@
          100.0 
       </constant>
 <constant cols="1" digits="1" name="primePWTable" rows="10" units="ms">
-         4.0 
-         3.5 
-         3.0 
-         2.0 
+         12.0 
+         10.0 
+         8.0 
+         5.0 
          1.0 
          0.0 
          0.0 
@@ -855,12 +855,12 @@
          0.0 
       </constant>
 <constant cols="1" digits="0" name="crankPctTable" rows="10" units="%">
-         800.0 
-         700.0 
          600.0 
-         500.0 
+         450.0 
          350.0 
-         225.0 
+         300.0 
+         250.0 
+         200.0 
          150.0 
          140.0 
          130.0 
