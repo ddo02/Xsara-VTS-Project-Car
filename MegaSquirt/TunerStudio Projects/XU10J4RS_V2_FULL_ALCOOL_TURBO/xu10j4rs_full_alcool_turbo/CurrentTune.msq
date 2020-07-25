@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.1.03 - EFI Analytics, Inc." tuneComment="" writeDate="Sun Jul 12 13:22:18 BRT 2020"/>
+<bibliography author="TunerStudio MS 3.1.03 - EFI Analytics, Inc." tuneComment="" writeDate="Sat Jul 25 17:38:44 BRT 2020"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+release+3.3.1++20131206+18%3A45GMT%28c%29KC%2FJSM%2FJB+++MS2" nPages="7" signature="MS2Extra comms330N2"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -138,7 +138,7 @@
          100.0 
       </constant>
 <constant cols="1" digits="1" name="taeBins" rows="4" units="ms">
-         1.7 
+         0.5 
          0.5 
          1.0 
          1.3 
@@ -2582,17 +2582,17 @@
       </constant>
 <constant cols="5" digits="1" name="pwmidle_cl_initialvalues_duties" rows="5" units="%">
          6.272 9.8 16.072 18.032 19.6 
-         5.88 8.232 12.152 12.544 11.76 
-         5.88 7.448 9.8 10.584 10.976 
-         5.488 5.488 5.488 5.488 5.488 
-         4.312 4.312 4.312 4.312 4.312 
+         6.272 8.624 12.544 12.936 12.152 
+         6.272 7.84 10.192 10.976 11.368 
+         5.88 5.88 5.88 5.88 5.88 
+         5.096 5.096 5.096 5.096 5.096 
       </constant>
 <constant cols="5" digits="0" name="pwmidle_cl_initialvalues_steps" rows="5" units="steps">
          16.0 25.0 41.0 46.0 50.0 
-         15.0 21.0 31.0 32.0 30.0 
-         15.0 19.0 25.0 27.0 28.0 
-         14.0 14.0 14.0 14.0 14.0 
-         11.0 11.0 11.0 11.0 11.0 
+         16.0 22.0 32.0 33.0 31.0 
+         16.0 20.0 26.0 28.0 29.0 
+         15.0 15.0 15.0 15.0 15.0 
+         13.0 13.0 13.0 13.0 13.0 
       </constant>
 <constant cols="1" digits="3" name="mafv" rows="64" units="V">
          0.0 
